@@ -8,6 +8,7 @@ Les quatre lettres présentées pour ce projet sont des correspondances que les 
    -  Monti à Monsieur de Chavigny, Thorn, 6 juin 1735
    - Monti à Monsieur de Chavigny, Thorn, 5 mars 1736
     - Monti à Monsieur de la Chétardie, Paris, 24 avril 1737
+     
 Il ne s'agit qu'un petit échantillon de la captivité du marquis de Monti. Dans ses lettres, il relate les événements qui se produisent en prison. Il parle des conditions qui lui sont infligées à lui et à ses hommes. Il tente par tous les moyens de sortir de prison.
 
 
