@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mémoires et Documents</title>
+            <author>Antoine-Felix de Monti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>École nationale des chartes</publisher>
+            <date>2026</date>
+            <availability>
+               <licence>Utilisation à des fins privés uniquements pour un devoir, conformément aux droits d'auteur.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>La Courneuve</settlement>
+                  <repository>Archives diplomatiques</repository>
+                  <idno source="archives diplomatiques">38MD/51</idno>
+                  <idno source="archivesdiplomatiques.diplomatie.gouv.fr">14366/rjwf51klh0x8</idno>
+                  <msName> Mémoires et Documents, Pologne, Correspondances de Monti, volume II (1735-1737)</msName>
+               </msIdentifier>
+            </msDesc>
+            <biblStruct>
+               <monogr>
+                  <title>Mémoires et Documents, Pologne, Correspondances de Monti, volume II (1735-1737)</title>
+                  <editor>
+                     <name>Direction politique</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Centre des archives diplomatiques de La Courneuve</publisher>
+                     <date>[Orig.]-1896</date>
+                  </imprint>
+                  <extent>157 pages</extent>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>Encodage d'un fichier pour un devoir en XSLT dans le cadre du Master TNAH 2025-2026 de l'École nationale des chartes.</p>
+        </projectDesc>
+     </encodingDesc>
+     <revisionDesc>
+        <change when="2026-02-23">Création du fichier et encodage initial.</change>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="letter" n="1">
+            <head><persName ref="#Monti_(Antoine-Felix_de)">Monti</persName> à <persName ref="#André_Hercule_de_Fleury(cardinal_de_Fleury)">Monsieur le <roleName>Garde des Sceaux</roleName></persName>, <placeName ref="#Thorn">Thorn</placeName>, <date when="1735-06-06">6 juin 1735</date></head>
+            <salute><persName ref="#André_Hercule_de_Fleury(cardinal_de_Fleury)">Monsieur</persName>,</salute>
+            <p><pb n="6r"/>J’espere que le paquet que <lb/>j’ai eu l’honneur de vous <lb/>adresser <date>le 9 du mois passé</date> par <persName ref="#Gabriel_Jacques_de_Salignac_de_la_Mothe-Fenelon(marquis_de_Fenelon)">Monsieur<lb/>
+               le <roleName>marquis</roleName> de Fenelon</persName> vous <lb/> aura été rendu et que vous <lb/> aurez eu la bonté d’excuser <lb/>ma prolixité
+               et des vues <lb/>que je souhaiterais que l’on put exécuter par le service <lb/> <persName ref="#Louis_XV(roi_de_France)">du <roleName>roi</roleName></persName>. Comme je ne sais ce <lb/>
+               qui se passe que par les <lb/> gazettes. Je suis excusable <lb/> si je fais des raisonnemens<lb/> trop étendus.</p>
+               <p><persName ref="#Teodor_Andrzej_Potocki">Monsieur le <roleName>Primat</roleName></persName> a receu ordre <lb/> il y a quelques jours de <lb/> partir d’icy sou bonne escorte <lb/> suivi de <lb/>
+               ses domestiques dont on ne <lb/>excepte plusieurs pour être transféré à <placeName ref="#Pułtusk">Pultuck</placeName> qui est <lb/>15 lieues de
+               <placeName ref="#France">France</placeName>, de <lb/><placeName ref="#Varsovie">Varsovie</placeName>, et sur le chemin<lb/> de la <placeName ref="#Lithuanie">Lithuanie</placeName>. Trois <lb/> heures avant qu’on lui <lb/>signifiat cet
+               ordre. On avoit <lb/> enlevé <persName ref="#Rzewceski">son confesseur le <roleName>Père</roleName> Guruwskit</persName> à <persName ref="#Carl_Friedrich_Rudenschöld">Monsieur de Rudenschild</persName> qui <lb/>n’eut
+               qu’une heure de tems <lb/>pour partir sans qu’on sache jusqu’à présent on </p>
+            <p><pb n="6v"/>la conduit <persName ref="#Franciszek_Radzewski">le <roleName>maréchal <lb/>de diette de l’Election</roleName></persName> qui est <lb/> prisonnier icy <persName>le neveu du <lb/><roleName>Primat</roleName></persName>,quelque <persName><roleName>chanoines</roleName> de <lb/><placeName ref="#Grosne">Grosne</placeName></persName> à la
+               suite de ce prélat <lb/>y sont restés sans qu’ils aient <lb/> en permission de le suivre. <lb/>L’ordre porte de partir
+               en <lb/>deux fois 24 heures mais <lb/>à grande peine il a obtenu<lb/> un jour de plus. Ce prélat <lb/> a eu la politesse
+               le <lb/>lendemain de <lb/>passer sous mes fenêtres <lb/>pour prendre congé de moi.<lb/> Je m’apperceus que son<lb/>
+               carosse venue, je descendis<lb/> sur le pas de la porte <lb/>et malgré les gardes qui <lb/>le suivaient il fit
+               arrêter <lb/> son carosse et de mon côté <lb/> malgré les deux sentinelles <lb/>qui sont à ma porte. Nous <lb/>nous¨l
+               dimes dans un instant <lb/>tout ce qui se pouvoir dire <lb/>de part et d’autre de plus <lb/>tendre il me cria que<lb/>
+               c’estoit pour la dernière fois. <lb/> Je suis persuadé qu’en arrivant à <placeName ref="#Pułtusk">Pultuck</placeName>, il y <lb/>trouvera <persName ref="#Jan_Aleksander_Lipski">l’<roleName>Evêque</roleName>
+                  de <placeName ref="#Cracovie">Cracovie</placeName></persName>, <lb/> cet apellant de <placeName ref="#Cracovie">Cracovie</placeName>, <persName ref="#Józef_Potocki">le <lb/><roleName>palatin</roleName> de <placeName ref="#Kiovie">Kiovie</placeName></persName> et <lb/> d’autres pour le presser de <lb/> se
+               soumettre et de </p> <p><pb n="7r"/>reconnoitre <persName ref="#Frédéric-Auguste_II(Electeur_de_Saxe)">l’<roleName>Electeur</roleName></persName>. <lb/>Sinon on lui fera sans doute envisager <lb/><placeName ref="#Pétersbourg">Pétersbourg</placeName>. Je
+               ne sais ce qui <lb/> en arrivera mais en tout cas en ne sera qu’une reconnoissance force. Je n’ai pas
+                  voulu <lb/>manquer, <persName ref="#André_Hercule_de_Fleury(cardinal_de_Fleury)"><roleName>Monseigneur</roleName></persName>, d’avoir <lb/>l’honneur de tout entendre ,<lb/> compte quoique ma lettre<lb/>
+               tardera longtems à vous parvenir.</p>
+               <p>On m’a informé que <persName ref="#Burckhardt_Christoph_von_Münnich(Comte_de_Munich)">Monsieur de <lb/>Munich</persName> qui est à <placeName ref="#Varsovie">Varsovie</placeName> <lb/>dit sa sérieusement soit <lb/>par
+               plaisanterie qu’il ne <lb/>tenoit qu’à moi d’estre libre <lb/> quand je voudrois pourvue <lb/> que je signasse un
+                  billet. <lb/> Je ne doute pas <persName ref="#André_Hercule_de_Fleury(cardinal_de_Fleury)"><roleName>Monseigneur</roleName></persName> qu’à les <lb/> Russiens ne répondent partout que je suis traité <lb/>
+               avec les agréments qu’on <lb/> accorde à des officiers prisoniers <lb/> de guerre parmi toutes les <lb/> nations et
+               qu’il ne tient <lb/> qu’à moi d’estre libre, si je veux <lb/> signer ce billet. <lb/>Personne ne m’a jamais <lb/> parlé de
+                  billet et quand <lb/>on m’en parleroit, je ne <lb/>le signerois qu’avec ordre <persName ref="#Louis_XV(roi_de_France)">du <roleName>roi</roleName></persName>. <lb/>Le <persName ref="#géôlier_de_Monti"><roleName>colonel</roleName> Russien</persName> <lb/>
+               vint me voir tous les 15 <lb/>jours ou trois semaines et <lb/>on ne parle que de choses <lb/> indifférentes. Je
+               suis bien </p> 
+            <p><pb n="7v"/>éloigné d’estre traité comme <lb/>prisonnier de guerre et <lb/>voicy, <persName ref="#André_Hercule_de_Fleury(cardinal_de_Fleury)"><roleName>Monseigneur</roleName></persName>, un nouveau <lb/>
+               trait. Un <persName ref="#Voisin"><roleName>valet de chambre</roleName></persName> <lb/> qui me sert depuis longtems <lb/> étant ces jours passer tomber
+               dangereusement <lb/> malade demandoit avec <lb/>grande instance de recevoir <lb/>ses sacremens.<persName ref="#Teodor_Andrzej_Potocki"> Monsieur
+                  le <roleName>Primat</roleName></persName> <lb/>informe de sa situation <lb/>envoia chés <persName ref="#géôlier_du_marquis_de_Monti">le <roleName>commandant</roleName> <lb/> russien</persName> pour qu’il permist <lb/> à un de
+               se eulx assignés <lb/> Polonois qui entend un peu <lb/>le françois d’entrer dans la <lb/>maison pour le
+               confesser.<lb/> <persName ref="#géôlier_du_marquis_de_Monti">Le <roleName>commandant</roleName></persName> répondit <lb/> qu’il ne pouvoit pas <lb/> l’accorder et que ses ordres <lb/> ne lui
+               permettoient que <lb/>de laisser entrer un recolet <lb/> le jour de Fête pour dire la <lb/> messe avec un officier <lb/>
+               présent. Cette situation <lb/> est d’autant plus triste pour <lb/> moi et pour ces messieurs <lb/>qui sont avec moi,
+               qu’on <lb/> est exposé à tomber malade <lb/> et à mourir dont un pais <lb/> catholique sans sacremens
+               heureusement ce domestique s’est tiré d’affaire.</p>
+               <p>Je sais Dieu merci soutenu <lb/>tout le malheur mais <lb/> j’avoue que je suis très <lb/> peiné de voir souffrir <lb/>
+               un an de prison </p>
+            <p><pb n="8r"/>à <persName ref="#François_Eléonor(Comte_d'Andlau)">Monsieur le <roleName>Chevalier</roleName> d’Andlau</persName>,<lb/> <persName ref="#Houstete">Monsieur Houstete</persName>, <persName ref="#famille_de_Monti(neveu_de_Monti)">mon neveu</persName>, <lb/> <persName ref="#Jean_Pierre_Tercier(premier_secrétaire_de_Monti)">mon
+               <roleName>secrétaire</roleName></persName>, tant de <lb/> domestiques que j’ai que je <lb/> vois à tout moment avec <lb/> un visage triste devant
+               moi <lb/> qu’ont-ils fait pour être traités <lb/> de la sorte si on s’en prend <lb/> à moi parce que j’ai servi <lb/> <persName ref="#Louis_XV(roi_de_France)">le <roleName>roi</roleName></persName>.
+               <lb/>Pourquoi tout ce qui est  <lb/>avec moi doit-il avoir <lb/> le mesme sort ? <lb/>Je consentirois de bon coeur <lb/>
+               qu’on me transportat dans <lb/> le fond de la <placeName ref="#Sibérie">Sibérie</placeName> avec <lb/> un ou deux domestiques <lb/> pourvu que les
+               autres <lb/> fussent en liberté. On ne <lb/> refuse point la confession <lb/> dans des cas d’infirmité <lb/> à tout ce qu’il
+               y a de plus <lb/> criminel mesme de cest <lb/> majesté et dans les prisons <lb/> d’Estat on accorde la <lb/> permission
+               de prendre <lb/> quelque fois tant sur <lb/> la plateforme. Je ne </p>
+            <p><pb n="8v"/>demande pas <persName ref="#André_Hercule_de_Fleury(cardinal_de_Fleury)"><roleName>Monseigneur</roleName></persName> <lb/> d’adoucissement dans la <lb/> manière dont je suis traité <lb/> cet adoucissement se donnent <lb/> à des criminels ou tout ou <lb/> rien.
+               Il ne conviendroit pas <lb/> mesme à la dignité d’un <lb/> roi qu’on donnast à son <lb/> <persName ref="#Monti_(Antoine-Felix_de)"><roleName>ambassadeur</roleName></persName> plus de
+               liberté <lb/> ce qui feroit croire <lb/> qu’on aura eu droit de <lb/> l’areter et de le traiter <lb/> comme prisonnier
+               d’Estat.</p>
+               <p>J’avois au <date>mois de septembre</date> <lb/> passe pris la liberté de <lb/> proposer un expédient de <lb/> faire rappeller
+               par <persName ref="#Philippe_V(roi_d'Espagne)">le <roleName>Roi</roleName> <lb/> catholique</persName> tous les officiers <lb/> prisonniers allemans <lb/> relâcher sur leur parole <lb/> quoique
+               les Russiens <lb/> n’eussent pas été en droit <lb/> de retenir le bataillons <lb/> parce qu’on est le maitre <lb/> de faire
+               revenir les </p>
+             <p><pb n="9r"/>prisonniers sans qu’on y <lb/> trouve à redire cependant <lb/> ils auroient pu trouver <lb/> d’autres
+               prétextes pour retenir <lb/> les trois bataillons à <placeName ref="#Cronste">Cronste</placeName> <lb/> à présent cet inconvénient <lb/> n’y fait plus à si <lb/>
+               cependant que j’ai proposé <lb/> en dernier lieu ne peut pas <lb/> avoir lieu celui de faire <lb/> revenir les
+               prisonniers au <lb/> garnison pourroit à présent <lb/> trouver sa place d’autant <lb/> plus qu’il y a plusieurs <lb/>
+               personnes de considération <lb/> qui à cause de leurs parens <lb/> s’emploieroient auprès de <persName ref="#Charles_VI_de_Habsbourg(empereur_du_Saint-Empire)">l’<roleName>empereur</roleName></persName>
+               pour qu’il obtint <lb/> ma liberté.</p>
+               <closer>Je suis…</closer>
+               <postscript>
+               <label>P.S. :</label> 
+               <p>Je joins icy une lettre <lb/> pour <persName ref="#Son_Excellence">Son Excellence</persName> dans laquelle <lb/> je lui marque ma situation <lb/> et
+                  l’ordre donné à <persName ref="#Teodor_Andrzej_Potocki">Monsieur le <lb/> <roleName>Primat</roleName></persName>.</p>
+               </postscript>
+         </div>
+         <div type="letter" n="2">
+            <head><persName ref="#Monti_(Antoine-Felix_de)">Monti</persName> à <persName ref="#André-Théodore_Chavignard(Chevalier_de_Chavigny)">Monsieur de Chavigny</persName>, <placeName ref="#Thorn">Thorn</placeName>, <date when="1735-06-06">6 juin 1735</date></head>
+            <p><pb n="24r"/>Vous savés, <persName ref="#André-Théodore_Chavignard(Chevalier_de_Chavigny)">Monsieur</persName>, que j’en suis <lb/> à la lecture des gazettes ce <lb/> que je ne sais que par elles. <lb/> Comme
+               j’ai eu l’honneur de <lb/> vous le mander ce qui s'est <lb/> passé, aller m’apprennent le <lb/> prochain depart de
+               <persName ref="#George_II(roi_d'Angleterre)">Sa <roleName>Majesté Britannique</roleName></persName> <lb/> pour ses Etats en <placeName ref="#Allemagne">Allemagne</placeName> <lb/> et que vous le surciés ce qui <lb/> me fait un
+               véritable plaisir <lb/> parce que j’espère étant plu près de recevoir <lb/> des quelque assurances de la <lb/>
+               continuation de l’honneur <lb/> de votre amitié. Il faut, <lb/> <persName ref="#André-Théodore_Chavignard(Chevalier_de_Chavigny)"><roleName>Monsieur</roleName></persName>, que je vous entretienne <lb/> encore sur
+               ma situation <lb/>. Ne me croit point <lb/> plaintif. J’ai assés de <lb/> courage pour soutenir toutes <lb/> les rigueurs que
+               l’on exerce <lb/> contre moi, mais ce qui me <lb/> touche infiniment et de <lb/> voir à tout moment devant <lb/> moi
+               près de ses domestiques <lb/> qui sont aux <lb/> arrêts qui s’ils ne sont <lb/> pas traités avec la rigueur <lb/> que je le
+               suis. Ils sont <lb/> toujours suivis de soldats lesquels sortent pour les <lb/> besoins de la maison, <lb/> ce qui son
+               chagrin de <lb/> leur situation et de se voir <lb/> priver de la liberté. J’ai icy auprès</p> 
+            <p><pb n="24v"/>de moi, <persName ref="#famille_de_Monti(neveu_de_Monti)">mon neveu</persName>, <lb/> fils de <persName ref="#famille_de_Monti(un_des_frères_de_Monti)">mon frère</persName>, que vous <lb/> honoriés de votre amitié.<lb/> C’est un jeune homme de <lb/> 21 ans qui n’a pas
+               l’honneur d’estre au service <persName ref="#Louis_XV(roi_de_France)">du <roleName>roi</roleName></persName> <lb/>, ni son sujet <lb/>, qui commençoit ses voiages <lb/> selon l’usage de
+               toutes les <lb/> nations et qui étant <lb/> à <placeName ref="#Varsovie">Varsovie</placeName> pour voir <lb/> l’élection. Je l’ai amené à <placeName ref="#Dantzick">Danzik</placeName> d’où je ne
+               l’ai pas fait <lb/> partir, parce que je n’ai pas <lb/> voulu qu’on dise <lb/> qu’un <persName ref="#famille_de_Monti(neveu_de_Monti)">jeune homme</persName> <lb/> quoiqu’il ne
+               soit pas de la <lb/> profession se retire d’une <lb/> ville qui estoit menacé d’un <lb/> siège. Voilà un an qu’il <lb/> est
+               arrêté, sans qu’il lui soit <lb/> permis de sortir de la <lb/> petite maison, que nous <lb/> occupons sans qu’il lui <lb/>
+               soit permis de parler à <lb/> personne et il faut qu’il <lb/> passe la fleur de son âge <lb/> [dans] une prison. Tout <lb/>
+               commerce m’est interdit. <lb/> Je ne respire l’air que de la <lb/> fenêtre de ma chambre. <lb/> On ne m’a pas
+               permis de faire le Pâques qui ne se <lb/> font pas sans la confession.</p>
+            <p><pb n="25r"/>Je dois encore vous ajouter, <persName ref="#André-Théodore_Chavignard(Chevalier_de_Chavigny)">Monsieur</persName>, <lb/> qu’<persName ref="#Voisin">un <roleName>valet de chambre</roleName></persName>, que j’ai qui s’appelle <persName ref="#Voisin">Voisin</persName> <lb/> que vous
+               connoissés aiant <lb/> été ces jours passer très mal <lb/> à côté de ma chambre. <lb/> [Il] souhaitoit ordemment de <lb/>
+                  se confesser et de communier <lb/>. On n’a pas voulu permettre <lb/> que le confesseur entre dans <lb/> la maison. <lb/> <persName ref="#Teodor_Andrzej_Potocki">Monsieur le <roleName><roleName>Primat</roleName></roleName></persName>, <lb/> aiant appris que j’avois ce <lb/> domestique estoit très
+               mal, <lb/> envoia par ce devoir de la plaie <lb/>qu’il occuppe chés <lb/> <persName ref="#géôlier_de_Monti">le <roleName>major</roleName></persName> sous la garde de <lb/> qui lui et moi
+               nous sommes <lb/> pour le prier de faire <lb/> entre un <roleName>Père</roleName> Polonois <lb/> qui entend un peu le <lb/> François pour
+                  le confesser. <lb/> <persName ref="#géôlier_de_Monti">Le <roleName>major</roleName></persName> répondit qu’il ne <lb/> pouvoit pas l’accorder, que <lb/> ses ordres portoient
+               uniquement <lb/> de laisser entrer un recoller, <lb/> les jours de fête pour dire <lb/> la messe et qu’il devoit y <lb/>
+               avoir un officier présent. <lb/> Vous verrés par ce récit <lb/> qu’on n’a jamais entendu parler d’une rigueur <lb/>
+               pareille, qui doit faire <lb/> horreur à tout ceux qui <lb/> ont de la religion,<lb/> chacun étant tenu de </p> 
+            <p><pb n="25v"/>faire ses devoirs dont la <lb/> sienne ce qu’on ne refuse <lb/> point aux plus grans <lb/> criminels mesme de ceste Majesté.
+               <lb/>Je sais que <persName ref="#Burckhardt_Christoph_von_Münnich(Comte_de_Munich)">Monsieur de Munich</persName> a <lb/> dit en dernier lieu à <placeName ref="#Varsovie">Varsovie</placeName> <lb/> que <persName ref="#Anna_Ivanovna">l’<roleName>impératrice</roleName></persName>, sa maitresse, <lb/>
+               ne pourvoit pas et agir <lb/> autrement avec moi parce que <lb/> j’avois commandé dans <lb/> <placeName ref="#Dantzick">Danzik</placeName> ce qui est
+               faux <lb/> et L.H.P. prennent <persName ref="#George_II(roi_d'Angleterre)">Sa <roleName>Majesté Britannique</roleName></persName> peut se faire <lb/> informer par la nation <lb/>, telle endroit,
+               angloise qui est à <placeName ref="#Dantzick">Danzik</placeName> si <lb/> j’ai jamais donné le moi, <lb/> si j’ai été dans les attaques <lb/>, si j’ai eu des
+               sentinelles à <lb/> ma porte, si je suis jamais <lb/> entré au conseil de guerre <lb/> de la ville ce soit pourtant <lb/> le
+               marquis de commander <lb/> y a tel apparence, que <persName>le <roleName>magistrat</roleName></persName> me feut <lb/> diféré <lb/> l’eut donné à un
+               ministre <lb/> charger y a tel apparence <lb/> qu’estant <persName ref="#Monti_(Antoine-Felix_de)"><roleName>ambassadeur</roleName></persName> <persName ref="#Louis_XV(roi_de_France)">du <lb/> roi</persName>, je voulusse me soumettre <lb/> aux
+               ordres que <persName>le <roleName>magistrat</roleName> <lb/> de <placeName ref="#Dantzick">Danzik</placeName></persName> me donneroit <lb/> et la détention de la Cour de <lb/> <placeName ref="#Russie">Russie</placeName> pour
+               soutenir ce qu’elle a fait dit.</p>
+            <p>Je ne sais, <persName ref="#André-Théodore_Chavignard(Chevalier_de_Chavigny)">Monsieur</persName>, où en est <lb/> l’affaire présentement</p> 
+            <p><pb n="26r"/>ne recevant aucunes <lb/> lettres. Je sais que <persName ref="#Burckhardt_Christoph_von_Münnich(Comte_de_Munich)">[le] <roleName>Maréchal</roleName> de <lb/> Munich</persName> a dit soit sérieusement soit <lb/> par plaisanterie qu’il en <lb/> tenoit qu’à moi de
+               sortir <lb/> aussitost que je signerois le <lb/> billet qu’on me demande. <lb/> Je dois vous informer, <persName ref="#André-Théodore_Chavignard(Chevalier_de_Chavigny)">Monsieur</persName>, <lb/>
+               afin qu’on ne suppose point à L.H.P <lb/> au ministre de <persName ref="#George_II(roi_d'Angleterre)">Sa <roleName>Majesté Britannique</roleName></persName> <lb/> que je n’ai pas voulu
+               signer ce <lb/> billet on ne m’en a jamais <lb/> présenté et on ne m’a jamais <lb/> parlé de rien. <persName ref="#géôlier_du_marquis_de_Monti">Le <roleName>commandant</roleName> <lb/>
+               Russien</persName> vient tous les quinze <lb/> jours ou trois semaines, me <lb/> faire une visite et on ne <lb/> parle que de choses indifferentes. <lb/>
+               Je dois rien signer que <lb/> par ordre <persName ref="#Louis_XV(roi_de_France)">du <roleName>roi</roleName></persName>. <lb/> <persName ref="#George_II(roi_d'Angleterre)">Sa <roleName>Majesté Britannique</roleName></persName> qui a la <lb/> bonté de s’intéresser à ma <lb/> liberté, pourroit croire que l’affaire seroit
+               finie et <lb/> que je serois en chemin, <lb/> et dans cette supposition <lb/> cesser, pendant quelque <lb/> tems ses
+               instances. <lb/> C’estoit à ce que ceux qui s'opposent <lb/> à ma liberté pourroient <lb/> souhaiter et quoique <lb/> je
+               dois croire que <lb/> <persName ref="#Burckhardt_Christoph_von_Münnich(Comte_de_Munich)">le <roleName>Comte</roleName> de Munich</persName> seroit <lb/> à les exécuter si les <lb/> ordres de sa cour lorsqu'on lui</p>
+            <p><pb n="26v"/>mandera de me mettre en <lb/> liberté. Cependant, il dépend <lb/> plus ou moins de lui de l’exécuter <lb/> le
+               plus tost ou plus tard ou de faire naitre quelque incident pour prolonge l’affaire <lb/>. C’est pour que <lb/>
+               je crois nécessaire que <persName ref="#William_Stanhope(Comte_de_Harrington)">Mondit <roleName>Lord</roleName> Harrington</persName> excusé à <persName ref="#George_Woodward(ambassadeur_britannique_en_Pologne)">Monsieur <lb/> Wodward</persName> d’insister auprès de <lb/>
+               <persName ref="#Burckhardt_Christoph_von_Münnich(Comte_de_Munich)"><roleName>Maréchal</roleName> de Munich </persName>pour la plus <lb/> pronte exécution, que <lb/> <persName ref="#Burckhardt_Christoph_von_Münnich(Comte_de_Munich)">[le]<roleName>Maréchal</roleName> de Munich</persName> étant chargé <lb/> des
+               affaires de <placeName ref="#Pologne">Pologne</placeName>. Ces <lb/> ordres lui seront adressés et <lb/> qui sera le maitre de les <lb/> accélérer ou de les
+               différer<lb/>. J’ai tout lieu d’espérer que <lb/> <persName ref="#William_Stanhope(Comte_de_Harrington)">Mondit <roleName>Lord</roleName> Harrington</persName> de qui je <lb/> ne puis assés me louer <lb/>, car aiant
+               beaucoup d’obligation, aura la bonté de service cette affaire.</p>
+               <p>Surtout <lb/> vous y intéressés <lb/> particulièrement indépend <lb/>, donnent des ordres <persName ref="#Louis_XV(roi_de_France)">du <roleName>roi</roleName></persName> <lb/>, ce ministre aiant
+               autant <lb/> d’estime et d’amitié pour vous <lb/>, que je sais qu’il en a. <lb/> Il n’est pas question de <lb/> procurer ni
+               à moi ni à ceux <lb/> qui sont avec moi d’adoucissement <lb/> dans la captivité <lb/>. Cela se pratique <lb/> avec des
+               criminels <lb/> et si on les acceptoit. Ce seroit <lb/> avouer qu’ils ont eu droit de <lb/> m’arrêter, l’honneur du <persName ref="#Louis_XV(roi_de_France)"><roleName>Roi</roleName></persName><lb/>
+               ny trouveroit par son compte.</p>
+               <p><pb n="27r"/>Je crois que ne doit estre tout <lb/> ou rien, votre pénétration <lb/> comprendra la conséquence <lb/> de cet
+               adoucissement  et qu’il faut éviter de demander <lb/>. Je ne les acepterois pas si <lb/> on me les accordoit.<lb/>
+               <persName ref="#Teodor_Andrzej_Potocki">Monsieur le <roleName>Primat</roleName></persName>.</p>
+         </div>
+         <div type="letter" n="3">
+            <head><persName ref="#Monti_(Antoine-Felix_de)">Monti</persName> à <persName ref="#André-Théodore_Chavignard(Chevalier_de_Chavigny)">Monsieur de Chavigny</persName>, <placeName ref="#Thorn">Thorn</placeName>, <date when="1736-05-05">5 mars 1736</date></head>
+            <p><pb n="109r"/>J’ay receu, <persName ref="#André-Théodore_Chavignard(Chevalier_de_Chavigny)">Monsieur</persName>, à peu de distance <lb/> l’une de l’autre, les deux lettres <lb/> dont vous m’avés honoré
+               le <lb/> <date>29 janvier et le 7 <lb/> février</date>, la première par <persName ref="#Poussin">Monsieur <lb/> Poussin</persName> et la seconde par  <persName ref="#Jacques-Joachim_Trotti(marquis_de_La_Chétardie)">Monsieur <lb/> le
+                  <roleName>Marquis</roleName> de la Chétardie</persName>.<lb/> J’aurois eu grand tout, <persName ref="#André-Théodore_Chavignard(Chevalier_de_Chavigny)">Monsieur</persName>, de <lb/> vous laisser ignorer le
+               jour de <lb/> ma liberté, aiant autant de bonté <lb/> que vous en avés pour moi <lb/> et aiant tout d’y contribuer <lb/>
+               autant qu’il a dépendu de vous. <lb/> Je sais à n‘en pouvoir douter <lb/> que le compliment qu’on m’a <lb/> fait,
+               estoit encore plus fort, <lb/> mais la prudence de celui qui <lb/> me l’a annoncé l’a un peu <lb/> mitigé que cela
+               soit entre nous <lb/> pour ne pas lui faire d’affaires.<lb/> Les officiers Russiens qui doivent <lb/> m’accompagner
+               aiant ordre de <lb/> me mener sur les frontières de <lb/> Silésie. J’ai demandé de prendre <lb/> la route de la
+               <placeName ref="#Poméranie">Poméranie</placeName> pour <lb/> plusieurs raisons. On a tardé à <lb/> faire réponse à <lb/> <persName ref="#Herman_Karl_von_Keyserling(ambassadeur_de_Russie)">Monsieur de Keiseling</persName> qui est à <lb/>
+               <placeName ref="#Varsovie">Varsovie</placeName> y a enfin consenti. <lb/> Plusieurs autres circonstances <lb/> ont retardé mon voiage joins au grand
+               froid, et à la <lb/> quantité de neige qui est </p> 
+            <p><pb n="109v"/> tombée. Cependant, je <lb/> partirai étant obligé <lb/> par rapport à
+               l’escorte et au <lb/> monde que j’ai d’aller à <lb/> petites journées ce que je ferai <lb/> jusqu’à <placeName ref="#Hambourg">Hambourg</placeName> <lb/> sans
+               passer par <placeName ref="#Berlin">Berlin</placeName>. <lb/> Il y a apparence que je n’arriverai <lb/> qu’au <date>mois de may</date> à <placeName ref="#Paris">Paris</placeName> <lb/> que la
+               satisfaction ne seroit ce pas <lb/> pour moi d’avoir et l’honneur <lb/> de vous y voir. Vous n’avés pas <lb/> jour
+               du moindre repos depuis <lb/> 24 ans. Il est bien juste qu’on <lb/> vous accorde au moins quelques <lb/> mois
+               pour être à votre aise <lb/> avec vos amis, mais je vous <lb/> avons que je voudrois que la <lb/> justice, qu’on
+               rend par les paroles <lb/> à vos services et à vos talens <lb/> fut suivie par de cesser eulx <lb/>jusqu’à ce que je le
+               vois quelque <lb/> chose, d’établi et d’assuré si à votre égard je ne serai pas <lb/> contenu personne plus
+               que <lb/> moi honoré le mérite de <persName ref="#Hulin">Monsieur <lb/> Hullin</persName>. Je connois sa probité ses <lb/> talens, sa noble façon
+               dépenser <lb/> et combien il mérite <lb/> l’estime et l’amitié des honêtes <lb/> gens. Je suis charmé <persName ref="#André-Théodore_Chavignard(Chevalier_de_Chavigny)">Monsieur</persName>
+               que vous <lb/> me mandiés que vous êtes <lb/> lu d’une tendre amitié <lb/> avec lui. J’espère qu’il voudra <lb/> bien
+               m’accorder la continuation <lb/> de la somme dont je fais tout <lb/> le cas possible <lb/> aussitost que je serai
+               dans les</p> 
+            <p><pb n="110r"/>Etats <persName ref="#Frédéric-Guillaume_Ier(roi_de_Prusse)">du <roleName>roi</roleName> de <placeName ref="#Prusse">Prusse</placeName></persName>. J’aurai l’honneur <lb/> d’écrire à <persName ref="#Frédéric-Guillaume_Ier(roi_de_Prusse)">Sa <roleName>Majesté prussienne</roleName></persName> pour prendre <lb/>
+                  congé d’elle et recevoir ses ordres <lb/> pour <placeName ref="#Paris">Paris</placeName> quoique je sois en <lb/> liberté depuis deux mois. J’ai <lb/>
+               toujours été comme vous jugés <lb/> bien observé et mon commerce <lb/> à <placeName ref="#Konigsberg">Konigsberg</placeName> n’auroit été <lb/>
+               d’aucune utilité d’autant plus <lb/> que les affaires sont finies et par <lb/> la bonne volonté qu’il y a <lb/> pour
+                  moi à la cour de <placeName ref="#Russie">Russie</placeName>. On <lb/> n’en auroit pu susciter <lb/> quelqu’une.
+               Je ne sais quand ce <lb/> prince partira de <placeName ref="#Konigsberg">Konigsberg</placeName>.</p> 
+            <closer>Ce <lb/> sera à <persName ref="#Jean-Baptiste_Langlois">Monsier l’<roleName>abbé</roleName> Langlois</persName> qui <lb/> aura
+               sans doute l’honneur de <lb/> l’accompagner.
+               Je ne puis rien ajouter à <lb/> l’attachement tendre et respectueux.</closer>
+         </div>
+         <div type="letter" n="4">
+            <head><persName ref="#Monti_(Antoine-Felix_de)">Monti</persName> à <persName ref="#Jacques-Joachim_Trotti(marquis_de_La_Chétardie)">Monsieur de la Chétardie</persName>, <placeName ref="#Paris">Paris</placeName>, <date when="1737-04-24">24 avril 1737</date></head>
+            <p><pb n="143r"/>J’espère, <persName ref="#Jacques-Joachim_Trotti(marquis_de_La_Chétardie)">Monsieur</persName>, que vous avés receu <lb/> les nouvelles assurances de mon <lb/> attachement par la
+               part, que j’eus l’honneur de vous faire <lb/> de la dernière grâce de <persName ref="#Louis_XV(roi_de_France)">Sa <roleName>Majesté</roleName></persName> a <lb/> mon égard. Comme
+               j’ay receu <lb/> la lettre dont vous m’avés honoré <lb/> au sujet estant plus que jamais <lb/> touché de tout
+               l’intérest que vous <lb/> prenés à ce qui m’est arrivé les <lb/> différentes occupations que j’ay eues. <lb/> <persName ref="#Louis_XV(roi_de_France)">Sa
+               <roleName>Majesté</roleName></persName> m’en ont fait différer malgré <lb/> moi les remerciemens que je vous dois.<lb/>
+               Personne n’honore plus que moi, <lb/> <persName ref="#Michał_Fryderyk_Czartoryski(prince_de_Klevan_et_de_Żuków_Stary,grand_chancelier_de_Lituanie)">Monsieur le <roleName>Prince Vice-Chancellier</roleName></persName>, et je connois <lb/> tous les
+               égards qui sont dus <lb/> par bien des endroits à sa recommandation, <lb/> la prétention de <persName ref="#Jan_Stanisław_Kątski">Monsieur <lb/>
+               Kackbourski</persName> me paroist être <lb/> depuis le siège de <placeName ref="#Dantzick">Danzik</placeName> jusqu’à <lb/> ma sortie de cette place. Je puis <lb/>
+               bien assurer qu’il ne luy est rien <lb/> d’eux et quoique je sois sortie le <date>3 <lb/> juillet</date>. Je paia aux officiers
+               les <lb/> appointemens pour tout <date>le mois <lb/> de juillet</date> et je donnai une <lb/> gratiffication à chacun selon son <lb/>
+               rang. Ce qui est envoié à <placeName ref="#Konigsberg">Konigsberg</placeName> <lb/> n’est pas et ma <lb/> connoissance, j’ay entendu parler </p> 
+            <p><pb n="143v"/>de plusieurs plaintes d’officier, <lb/> mais la cour ne m’a jamais <lb/> consulte sur rien à cet égard <lb/> et je ne
+               sourois dire ce qui m’est <lb/> si par la scette je n’apprens quelque <lb/> chose. Je lui rendroi tous les
+               services <lb/> qui dépendront de moi et <lb/> j’auroi l’honneur de vous en <lb/> informer. On m’avoit flatte que <lb/>
+               j’aurois eu celui de vous voir icy <lb/>, mais je crains que la position des <lb/> affaires ou le permette pas <lb/>
+               présentement. Je n’aurois été rouer <lb/> pour vous assurer de toucher <lb/> l’inviolable attachement avec <lb/>
+               lequel j’ay l’honneur d’estre <lb/> <persName ref="#marquis_de_Bacqueville">Monsieur de Baqueville</persName>.</p>
+            <p>J’aurois eu, <persName ref="#Jacques-Joachim_Trotti(marquis_de_La_Chétardie)">Monsieur</persName>, une grande <lb/> satisfaction d’avoir l’honneur de <lb/> vous voir en <placeName ref="#Pologne">Pologne</placeName>.</p> 
+            <p>Je reconnois, <persName ref="#Jacques-Joachim_Trotti(marquis_de_La_Chétardie)">Monsieur</persName>, que vous me <lb/> conformés toujours l’honneur de <lb/> votre amitié, par là, parce que vous <lb/> avés prise à la grâce, que <persName ref="#Louis_XV(roi_de_France)">le <roleName>roy</roleName></persName> m’a <lb/> faite et 
+               c’est avec toute la <lb/> reconnoissance possible, que je vous <lb/> en fait mes remerciemens. J’aurois <lb/> eu, 
+               <persName ref="#Jacques-Joachim_Trotti(marquis_de_La_Chétardie)">Monsieur</persName>, une grande satisfaction <lb/> si les derniers troubles de <placeName ref="#Pologne">Pologne</placeName> <lb/> n’estoitent pas arrivés de vous <lb/> donner des marquer de tout revenue <lb/> amitié
+               et de la destitution que je <lb/> fais de votre mérite <lb/>. Pendant <persName ref="#Monti_(Antoine-Felix_de)">mon <roleName>ministère</roleName></persName></p> 
+            <p><pb n="144r"/>en tout ce qui a dépendu <lb/> j’ay taché de ne pas manquer de <lb/> parole à personne en si là j’ay <lb/> toujours en une grande <lb/> confiance
+               dans ce détour que la <lb/> vérité trouvé toujours sa place. Je suis très sensible à la bonté que <lb/> <persName>les Dames</persName>
+               ont pour 3 mois toute <lb/> la <placeName ref="#Pologne">Pologne</placeName> a été témoin de mes <lb/> peines et de mes chagrins. Je <lb/> n’ai pas
+               épargné les premiers <lb/> pour servir le roy, mon maitre, <lb/> et pour contribuer à ce que le <lb/> roiaume
+               souhoitoit quand vous <lb/> aurés, <persName ref="#Jacques-Joachim_Trotti(marquis_de_La_Chétardie)">Monsieur</persName>, [une] occasion de voir <persName>ces dames</persName> <lb/> qui m’honorent encore
+               de leurs <lb/> souvenir. Je vous supplie de les assurer de mes respects. J’ay <lb/> toucher de croire qu’on
+               me laissera <lb/> tranquille à <placeName ref="#Paris">Paris</placeName>. Je n’ai ny <lb/> le talens ni les moiens pour <lb/> remplir l’ambassade de
+               <placeName ref="#Vienne">Vienne</placeName> <lb/> à laquelle les bontés du public <lb/> m’avoient destiné. J’ay fait une assés <lb/> pénibles envers pour
+               souhaiter du <lb/> repos. </p>
+            <p>Je vous supplie de faire ma cour <lb/> à <persName ref="#Marie-Charlotte_Sobieska(princesse_de_Turenne et Duchesse_de_Bouillon)">Monsieur de la <roleName>Duchesse</roleName> de Bouillon</persName> <lb/> que je souhaite revoir
+               bientost.</p>
+           <closer> Je crois, <persName ref="#Jacques-Joachim_Trotti(marquis_de_La_Chétardie)">Monsieur</persName>, que vous n’estes pas <lb/> en peine que je fasse les mesmes <lb/> souhaits pour vous
+               puisque j’ay <lb/> l’honneur d’estre, où bien de <lb/> l’attachement, <persName ref="#Jacques-Joachim_Trotti(marquis_de_La_Chétardie)">Monsieur</persName>.</closer>
+         </div>
+      </body>
+  </text>
+</TEI>

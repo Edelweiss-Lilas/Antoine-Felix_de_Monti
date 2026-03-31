@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&amp;display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script><title>Les correspondances du Marquis de Monti, ambassadeur de France en Pologne</title>
+      <style>
+                #navbar > ul > li {
+                display: inline-block;
+                list-style: none;
+                }
+                .introduction-biographique {
+                font-family:'Roboto', sans-serif;   
+                background-color: #fdfdfd; /* Un fond très légèrement crème */
+                border-bottom: 1px solid #ddd;
+                margin-bottom: 30px;
+                }                
+                .introduction-biographique h2 {
+                color: #8b4513; 
+                text-align: center;
+                }
+                .banniere-historique {
+                width: 100%;           
+                height: 250px;         
+                object-fit: cover;    
+                object-position: center 60%; 
+                border-bottom: 2px solid #b58d59; 
+                }
+                .fiche-marquis {
+                display: grid;
+                grid-template-columns: 1fr 1.5fr; /* 1 part pour l'image, 1.5 pour le texte */
+                gap: 30px;                       
+                max-width: 1000px;
+                margin: 0 auto;
+                /* Largeur importante pour la page */
+                background: #fdfdfd;
+                border: 1px solid #b58d59;
+                padding: 20px;
+                align-items: center;              
+                }                
+                /* Style pour la liste des infos */
+                .fiche-info {
+                list-style: none;
+                padding: 0;
+                text-align: left;                 
+                }                
+                .fiche-info li {
+                margin-bottom: 10px;
+                border-bottom: 1px dotted #ccc;  /* Petit trait de séparation entre les lignes */
+                }
+                /* Conteneur principal sous la bannière */
+                .main-content {
+                display: grid;
+                grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
+                gap: 30px;
+                max-width: 1200px;
+                margin: 20px auto;
+                }                
+                /* Zone de transcription (style papier ancien) */
+                .transcription-area {
+                background-color: #fffaf0;
+                padding: 40px;
+                box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+                font-family: "EB Garamond", serif; 
+                line-height: 1.8;
+                }                
+                /* Zone visionneuse (fixe au défilement) */
+                .viewer-area {
+                position: sticky;
+                top: 20px;
+                height: 700px;
+                }
+                .dateline {
+                text-align: right;
+                font-style: italic;
+                margin-bottom: 2em;
+                }
+                .transcription-area p {
+                text-indent: 2em;
+                margin-bottom: 1em;
+                text-align: justify;
+                }                
+                .folio-marker {
+                color: #888;
+                font-size: 0.9em;
+                font-family: sans-serif;
+                margin: 1em 0;
+                display: block;
+                }
+                /* Styles pour les index */
+                .index-container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+                .alphabet-nav { 
+                text-align: center; 
+                padding: 15px; 
+                position: sticky; 
+                top: 0; 
+                background: #fff; 
+                border-bottom: 2px solid #b58d59; 
+                z-index: 10;
+                margin-bottom: 20px;
+                }
+                .alphabet-nav a { 
+                text-decoration: none; 
+                font-weight: bold; 
+                color: #8b4513; 
+                margin: 0 8px; 
+                font-size: 1.2em;
+                }
+                .index-letter { 
+                font-family: 'Playwrite IE', cursive; 
+                color: #b58d59; 
+                border-bottom: 1px solid #eee; 
+                padding-top: 30px;
+                }
+                .index-list { list-style: none; padding: 0; }
+                .index-list li { 
+                display: flex; 
+                justify-content: space-between; 
+                align-items: center;
+                padding: 10px; 
+                border-bottom: 1px dotted #ccc; 
+                }
+                .btn-lettre {
+                text-decoration: none;
+                color: #582900;
+                background: #fdfdfd;
+                border: 1px solid #ddd;
+                padding: 3px 10px;
+                border-radius: 5px;
+                font-size: 0.9em;
+                }
+                .btn-lettre:hover { background: #b58d59; color: #fff; }
+            </style>
+   </head>
+   <body>
+      <div class="banniere"><img src="image/manuscrit.jpeg" class="banniere-historique" alt="Bannière"></div>
+      <div class="metadata-header" style="margin-bottom: 3em; background-color: #f9f9f9; padding: 15px; border-radius: 5px;gap: 10px; text-align:center">
+         <div style="text-align:center; font-family: 'Playwrite IE', cursive;">
+            <h1>Monti à Monsieur de la Chétardie, Paris, 24 avril 1737</h1>
+         </div>
+         <div style="text-align: center; font-family: Playwrite IE, cursive" id="navbar">
+            <ul>
+               <li><a href="accueil.html">Accueil</a> - </li>
+               <li><a href="lettre_1.html">Lettre 1</a> - </li>
+               <li><a href="lettre_2.html">Lettre 2</a> - </li>
+               <li><a href="lettre_3.html">Lettre 3 </a> - </li>
+               <li><a href="lettre_4.html">Lettre 4</a> - </li>
+               <li><a href="index_personnages.html">Index personnages</a> - </li>
+               <li><a href="index_lieux.html">Index lieux</a> - </li>
+            </ul>
+         </div>
+         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; max-width: 1400px; margin: 20px auto;">
+            <div class="transcription-area" style="padding: 20px; background: #fffaf0; border: 1px solid #ddd; text-align: justify;"><span class="folio-marker" style="color: #8b4513; font-weight: bold; display: block; margin: 1.5em 0; border-top: 1px dashed #ccc;"><a href="#img-143r" style="color: inherit; text-decoration: none;">
+                     [Folio 143r - Cliquez pour voir l'image]
+                     </a></span>J’espère, <a href="index_personnages.html#Jacques-Joachim_Trotti(marquis_de_La_Ch%C3%A9tardie)">Monsieur</a>, que vous avés receu <br> les nouvelles assurances de mon <br> attachement par la
+               part, que j’eus l’honneur de vous faire <br> de la dernière grâce de <a href="index_personnages.html#Louis_XV(roi_de_France)">Sa Majesté</a> a <br> mon égard. Comme
+               j’ay receu <br> la lettre dont vous m’avés honoré <br> au sujet estant plus que jamais <br> touché de tout
+               l’intérest que vous <br> prenés à ce qui m’est arrivé les <br> différentes occupations que j’ay eues. <br> <a href="index_personnages.html#Louis_XV(roi_de_France)">Sa
+                  Majesté</a> m’en ont fait différer malgré <br> moi les remerciemens que je vous dois.<br>
+               Personne n’honore plus que moi, <br> <a href="index_personnages.html#Micha%C5%82_Fryderyk_Czartoryski(prince_de_Klevan_et_de_%C5%BBuk%C3%B3w_Stary,grand_chancelier_de_Lituanie)">Monsieur le Prince Vice-Chancellier</a>, et je connois <br> tous les
+               égards qui sont dus <br> par bien des endroits à sa recommandation, <br> la prétention de <a href="index_personnages.html#Jan_Stanis%C5%82aw_K%C4%85tski">Monsieur 
+                  Kackbourski</a> me paroist être <br> depuis le siège de <a href="index_lieux.html#Dantzick">Danzik</a> jusqu’à <br> ma sortie de cette place. Je puis <br>
+               bien assurer qu’il ne luy est rien <br> d’eux et quoique je sois sortie le 3 <br> juillet. Je paia aux officiers
+               les <br> appointemens pour tout le mois <br> de juillet et je donnai une <br> gratiffication à chacun selon son <br>
+               rang. Ce qui est envoié à <a href="index_lieux.html#Konigsberg">Konigsberg</a> <br> n’est pas et ma <br> connoissance, j’ay entendu parler <span class="folio-marker" style="color: #8b4513; font-weight: bold; display: block; margin: 1.5em 0; border-top: 1px dashed #ccc;"><a href="#img-143v" style="color: inherit; text-decoration: none;">
+                     [Folio 143v - Cliquez pour voir l'image]
+                     </a></span>de plusieurs plaintes d’officier, <br> mais la cour ne m’a jamais <br> consulte sur rien à cet égard <br> et je ne
+               sourois dire ce qui m’est <br> si par la scette je n’apprens quelque <br> chose. Je lui rendroi tous les
+               services <br> qui dépendront de moi et <br> j’auroi l’honneur de vous en <br> informer. On m’avoit flatte que <br>
+               j’aurois eu celui de vous voir icy <br>, mais je crains que la position des <br> affaires ou le permette pas <br>
+               présentement. Je n’aurois été rouer <br> pour vous assurer de toucher <br> l’inviolable attachement avec <br>
+               lequel j’ay l’honneur d’estre <br> <a href="index_personnages.html#marquis_de_Bacqueville">Monsieur de Baqueville</a>.J’aurois eu, <a href="index_personnages.html#Jacques-Joachim_Trotti(marquis_de_La_Ch%C3%A9tardie)">Monsieur</a>, une grande <br> satisfaction d’avoir l’honneur de <br> vous voir en <a href="index_lieux.html#Pologne">Pologne</a>.Je reconnois, <a href="index_personnages.html#Jacques-Joachim_Trotti(marquis_de_La_Ch%C3%A9tardie)">Monsieur</a>, que vous me <br> conformés toujours l’honneur de <br> votre amitié, par là, parce que vous <br> avés prise à la grâce, que <a href="index_personnages.html#Louis_XV(roi_de_France)">le roy</a> m’a <br> faite et 
+               c’est avec toute la <br> reconnoissance possible, que je vous <br> en fait mes remerciemens. J’aurois <br> eu, 
+               <a href="index_personnages.html#Jacques-Joachim_Trotti(marquis_de_La_Ch%C3%A9tardie)">Monsieur</a>, une grande satisfaction <br> si les derniers troubles de <a href="index_lieux.html#Pologne">Pologne</a> <br> n’estoitent pas arrivés de vous <br> donner des marquer de tout revenue <br> amitié
+               et de la destitution que je <br> fais de votre mérite <br>. Pendant <a href="index_personnages.html#Monti_(Antoine-Felix_de)">mon ministère</a><span class="folio-marker" style="color: #8b4513; font-weight: bold; display: block; margin: 1.5em 0; border-top: 1px dashed #ccc;"><a href="#img-144r" style="color: inherit; text-decoration: none;">
+                     [Folio 144r - Cliquez pour voir l'image]
+                     </a></span>en tout ce qui a dépendu <br> j’ay taché de ne pas manquer de <br> parole à personne en si là j’ay <br> toujours en une grande <br> confiance
+               dans ce détour que la <br> vérité trouvé toujours sa place. Je suis très sensible à la bonté que <br> les Dames
+               ont pour 3 mois toute <br> la <a href="index_lieux.html#Pologne">Pologne</a> a été témoin de mes <br> peines et de mes chagrins. Je <br> n’ai pas
+               épargné les premiers <br> pour servir le roy, mon maitre, <br> et pour contribuer à ce que le <br> roiaume
+               souhoitoit quand vous <br> aurés, <a href="index_personnages.html#Jacques-Joachim_Trotti(marquis_de_La_Ch%C3%A9tardie)">Monsieur</a>, [une] occasion de voir ces dames <br> qui m’honorent encore
+               de leurs <br> souvenir. Je vous supplie de les assurer de mes respects. J’ay <br> toucher de croire qu’on
+               me laissera <br> tranquille à <a href="index_lieux.html#Paris">Paris</a>. Je n’ai ny <br> le talens ni les moiens pour <br> remplir l’ambassade de
+               <a href="index_lieux.html#Vienne">Vienne</a> <br> à laquelle les bontés du public <br> m’avoient destiné. J’ay fait une assés <br> pénibles envers pour
+               souhaiter du <br> repos. Je vous supplie de faire ma cour <br> à <a href="index_personnages.html#Marie-Charlotte_Sobieska(princesse_de_Turenne_et_Duchesse_de_Bouillon)">Monsieur de la Duchesse de Bouillon</a> <br> que je souhaite revoir
+               bientost.</div>
+            <div style="position: sticky; top: 10px; height: 85vh; overflow-y: auto; background: #eee; padding: 10px; border: 1px solid #b58d59;">
+               <h2 style="font-family: sans-serif; color: #8b4513;">Fac-similés</h2>
+               <div id="img-143r" style="margin-bottom: 30px; text-align: center;">
+                  <p style="font-family: sans-serif; font-weight: bold;">Folio 143r</p><img src="images_lettres/folio_143r.jpg" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 3px;" alt="Folio 143r"></div>
+               <div id="img-143v" style="margin-bottom: 30px; text-align: center;">
+                  <p style="font-family: sans-serif; font-weight: bold;">Folio 143v</p><img src="images_lettres/folio_143v.jpg" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 3px;" alt="Folio 143v"></div>
+               <div id="img-144r" style="margin-bottom: 30px; text-align: center;">
+                  <p style="font-family: sans-serif; font-weight: bold;">Folio 144r</p><img src="images_lettres/folio_144r.jpg" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 3px;" alt="Folio 144r"></div>
+            </div>
+         </div>
+      </div>
+      <div class="pagination" style="margin-top: 2em; border-top: 1px solid #ccc; padding-top: 1em; text-align: center;"><a href="lettre_3.html">⬅️ Lettre précédente</a> | <a href="index_personnages.html">Index des personnages ➡️</a></div>
+      <footer style="margin-top: 2em; border-top: 1px solid #ccc; padding-top: 1em; text-align: center;">
+         <hr>
+         <p>Ce site web a été réalisé dans le cadre d'un devoir XSLT du Master TNAH de l'École
+            nationale des chartes</p>
+         <p> © Fanny Suszko, 2026</p>
+         <div style="margin-top: 2em; border-top: 2px; padding-top: 2em; text-align:right"><img src="image/logo-chartes-psl-coul.png" width="400" title="logo de l'ENC" alt="Logo de l'Ecole des Chartes"></div>
+      </footer>
+   </body>
+</html>

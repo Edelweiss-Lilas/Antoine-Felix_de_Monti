@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&amp;display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script><title>Les correspondances du Marquis de Monti, ambassadeur de France en Pologne</title>
+      <style>
+                #navbar > ul > li {
+                display: inline-block;
+                list-style: none;
+                }
+                .introduction-biographique {
+                font-family:'Roboto', sans-serif;   
+                background-color: #fdfdfd; /* Un fond très légèrement crème */
+                border-bottom: 1px solid #ddd;
+                margin-bottom: 30px;
+                }                
+                .introduction-biographique h2 {
+                color: #8b4513; 
+                text-align: center;
+                }
+                .banniere-historique {
+                width: 100%;           
+                height: 250px;         
+                object-fit: cover;    
+                object-position: center 60%; 
+                border-bottom: 2px solid #b58d59; 
+                }
+                .fiche-marquis {
+                display: grid;
+                grid-template-columns: 1fr 1.5fr; /* 1 part pour l'image, 1.5 pour le texte */
+                gap: 30px;                       
+                max-width: 1000px;
+                margin: 0 auto;
+                /* Largeur importante pour la page */
+                background: #fdfdfd;
+                border: 1px solid #b58d59;
+                padding: 20px;
+                align-items: center;              
+                }                
+                /* Style pour la liste des infos */
+                .fiche-info {
+                list-style: none;
+                padding: 0;
+                text-align: left;                 
+                }                
+                .fiche-info li {
+                margin-bottom: 10px;
+                border-bottom: 1px dotted #ccc;  /* Petit trait de séparation entre les lignes */
+                }
+                /* Conteneur principal sous la bannière */
+                .main-content {
+                display: grid;
+                grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
+                gap: 30px;
+                max-width: 1200px;
+                margin: 20px auto;
+                }                
+                /* Zone de transcription (style papier ancien) */
+                .transcription-area {
+                background-color: #fffaf0;
+                padding: 40px;
+                box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+                font-family: "EB Garamond", serif; 
+                line-height: 1.8;
+                }                
+                /* Zone visionneuse (fixe au défilement) */
+                .viewer-area {
+                position: sticky;
+                top: 20px;
+                height: 700px;
+                }
+                .dateline {
+                text-align: right;
+                font-style: italic;
+                margin-bottom: 2em;
+                }
+                .transcription-area p {
+                text-indent: 2em;
+                margin-bottom: 1em;
+                text-align: justify;
+                }                
+                .folio-marker {
+                color: #888;
+                font-size: 0.9em;
+                font-family: sans-serif;
+                margin: 1em 0;
+                display: block;
+                }
+                /* Styles pour les index */
+                .index-container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+                .alphabet-nav { 
+                text-align: center; 
+                padding: 15px; 
+                position: sticky; 
+                top: 0; 
+                background: #fff; 
+                border-bottom: 2px solid #b58d59; 
+                z-index: 10;
+                margin-bottom: 20px;
+                }
+                .alphabet-nav a { 
+                text-decoration: none; 
+                font-weight: bold; 
+                color: #8b4513; 
+                margin: 0 8px; 
+                font-size: 1.2em;
+                }
+                .index-letter { 
+                font-family: 'Playwrite IE', cursive; 
+                color: #b58d59; 
+                border-bottom: 1px solid #eee; 
+                padding-top: 30px;
+                }
+                .index-list { list-style: none; padding: 0; }
+                .index-list li { 
+                display: flex; 
+                justify-content: space-between; 
+                align-items: center;
+                padding: 10px; 
+                border-bottom: 1px dotted #ccc; 
+                }
+                .btn-lettre {
+                text-decoration: none;
+                color: #582900;
+                background: #fdfdfd;
+                border: 1px solid #ddd;
+                padding: 3px 10px;
+                border-radius: 5px;
+                font-size: 0.9em;
+                }
+                .btn-lettre:hover { background: #b58d59; color: #fff; }
+            </style>
+   </head>
+   <body>
+      <div class="banniere"><img src="image/manuscrit.jpeg" class="banniere-historique" alt="Bannière"></div>
+      <div class="metadata-header" style="margin-bottom: 3em; background-color: #f9f9f9; padding: 15px; border-radius: 5px;gap: 10px; text-align:center">
+         <div style="text-align:center; font-family: 'Playwrite IE', cursive;">
+            <h1>Monti à Monsieur de Chavigny, Thorn, 6 juin 1735</h1>
+         </div>
+         <div style="text-align: center; font-family: Playwrite IE, cursive" id="navbar">
+            <ul>
+               <li><a href="accueil.html">Accueil</a> - </li>
+               <li><a href="lettre_1.html">Lettre 1</a> - </li>
+               <li><a href="lettre_2.html">Lettre 2</a> - </li>
+               <li><a href="lettre_3.html">Lettre 3 </a> - </li>
+               <li><a href="lettre_4.html">Lettre 4</a> - </li>
+               <li><a href="index_personnages.html">Index personnages</a> - </li>
+               <li><a href="index_lieux.html">Index lieux</a> - </li>
+            </ul>
+         </div>
+         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; max-width: 1400px; margin: 20px auto;">
+            <div class="transcription-area" style="padding: 20px; background: #fffaf0; border: 1px solid #ddd; text-align: justify;"><span class="folio-marker" style="color: #8b4513; font-weight: bold; display: block; margin: 1.5em 0; border-top: 1px dashed #ccc;"><a href="#img-24r" style="color: inherit; text-decoration: none;">
+                     [Folio 24r - Cliquez pour voir l'image]
+                     </a></span>Vous savés, <a href="index_personnages.html#Andr%C3%A9-Th%C3%A9odore_Chavignard(Chevalier_de_Chavigny)">Monsieur</a>, que j’en suis <br> à la lecture des gazettes ce <br> que je ne sais que par elles. <br> Comme
+               j’ai eu l’honneur de <br> vous le mander ce qui s'est <br> passé, aller m’apprennent le <br> prochain depart de
+               <a href="index_personnages.html#George_II(roi_d'Angleterre)">Sa Majesté Britannique</a> <br> pour ses Etats en <a href="index_lieux.html#Allemagne">Allemagne</a> <br> et que vous le surciés ce qui <br> me fait un
+               véritable plaisir <br> parce que j’espère étant plu près de recevoir <br> des quelque assurances de la <br>
+               continuation de l’honneur <br> de votre amitié. Il faut, <br> <a href="index_personnages.html#Andr%C3%A9-Th%C3%A9odore_Chavignard(Chevalier_de_Chavigny)">Monsieur</a>, que je vous entretienne <br> encore sur
+               ma situation <br>. Ne me croit point <br> plaintif. J’ai assés de <br> courage pour soutenir toutes <br> les rigueurs que
+               l’on exerce <br> contre moi, mais ce qui me <br> touche infiniment et de <br> voir à tout moment devant <br> moi
+               près de ses domestiques <br> qui sont aux <br> arrêts qui s’ils ne sont <br> pas traités avec la rigueur <br> que je le
+               suis. Ils sont <br> toujours suivis de soldats lesquels sortent pour les <br> besoins de la maison, <br> ce qui son
+               chagrin de <br> leur situation et de se voir <br> priver de la liberté. J’ai icy auprès<span class="folio-marker" style="color: #8b4513; font-weight: bold; display: block; margin: 1.5em 0; border-top: 1px dashed #ccc;"><a href="#img-24v" style="color: inherit; text-decoration: none;">
+                     [Folio 24v - Cliquez pour voir l'image]
+                     </a></span>de moi, <a href="index_personnages.html#famille_de_Monti(neveu_de_Monti)">mon neveu</a>, <br> fils de <a href="index_personnages.html#famille_de_Monti(un_des_fr%C3%A8res_de_Monti)">mon frère</a>, que vous <br> honoriés de votre amitié.<br> C’est un jeune homme de <br> 21 ans qui n’a pas
+               l’honneur d’estre au service <a href="index_personnages.html#Louis_XV(roi_de_France)">du roi</a> <br>, ni son sujet <br>, qui commençoit ses voiages <br> selon l’usage de
+               toutes les <br> nations et qui étant <br> à <a href="index_lieux.html#Varsovie">Varsovie</a> pour voir <br> l’élection. Je l’ai amené à <a href="index_lieux.html#Dantzick">Danzik</a> d’où je ne
+               l’ai pas fait <br> partir, parce que je n’ai pas <br> voulu qu’on dise <br> qu’un <a href="index_personnages.html#famille_de_Monti(neveu_de_Monti)">jeune homme</a> <br> quoiqu’il ne
+               soit pas de la <br> profession se retire d’une <br> ville qui estoit menacé d’un <br> siège. Voilà un an qu’il <br> est
+               arrêté, sans qu’il lui soit <br> permis de sortir de la <br> petite maison, que nous <br> occupons sans qu’il lui <br>
+               soit permis de parler à <br> personne et il faut qu’il <br> passe la fleur de son âge <br> [dans] une prison. Tout <br>
+               commerce m’est interdit. <br> Je ne respire l’air que de la <br> fenêtre de ma chambre. <br> On ne m’a pas
+               permis de faire le Pâques qui ne se <br> font pas sans la confession.<span class="folio-marker" style="color: #8b4513; font-weight: bold; display: block; margin: 1.5em 0; border-top: 1px dashed #ccc;"><a href="#img-25r" style="color: inherit; text-decoration: none;">
+                     [Folio 25r - Cliquez pour voir l'image]
+                     </a></span>Je dois encore vous ajouter, <a href="index_personnages.html#Andr%C3%A9-Th%C3%A9odore_Chavignard(Chevalier_de_Chavigny)">Monsieur</a>, <br> qu’<a href="index_personnages.html#Voisin">un valet de chambre</a>, que j’ai qui s’appelle <a href="index_personnages.html#Voisin">Voisin</a> <br> que vous
+               connoissés aiant <br> été ces jours passer très mal <br> à côté de ma chambre. <br> [Il] souhaitoit ordemment de <br>
+               se confesser et de communier <br>. On n’a pas voulu permettre <br> que le confesseur entre dans <br> la maison. <br> <a href="index_personnages.html#Teodor_Andrzej_Potocki">Monsieur le Primat</a>, <br> aiant appris que j’avois ce <br> domestique estoit très
+               mal, <br> envoia par ce devoir de la plaie <br>qu’il occuppe chés <br> <a href="index_personnages.html#g%C3%A9%C3%B4lier_de_Monti">le major</a> sous la garde de <br> qui lui et moi
+               nous sommes <br> pour le prier de faire <br> entre un Père Polonois <br> qui entend un peu le <br> François pour
+               le confesser. <br> <a href="index_personnages.html#g%C3%A9%C3%B4lier_de_Monti">Le major</a> répondit qu’il ne <br> pouvoit pas l’accorder, que <br> ses ordres portoient
+               uniquement <br> de laisser entrer un recoller, <br> les jours de fête pour dire <br> la messe et qu’il devoit y <br>
+               avoir un officier présent. <br> Vous verrés par ce récit <br> qu’on n’a jamais entendu parler d’une rigueur <br>
+               pareille, qui doit faire <br> horreur à tout ceux qui <br> ont de la religion,<br> chacun étant tenu de <span class="folio-marker" style="color: #8b4513; font-weight: bold; display: block; margin: 1.5em 0; border-top: 1px dashed #ccc;"><a href="#img-25v" style="color: inherit; text-decoration: none;">
+                     [Folio 25v - Cliquez pour voir l'image]
+                     </a></span>faire ses devoirs dont la <br> sienne ce qu’on ne refuse <br> point aux plus grans <br> criminels mesme de ceste Majesté.
+               <br>Je sais que <a href="index_personnages.html#Burckhardt_Christoph_von_M%C3%BCnnich(Comte_de_Munich)">Monsieur de Munich</a> a <br> dit en dernier lieu à <a href="index_lieux.html#Varsovie">Varsovie</a> <br> que <a href="index_personnages.html#Anna_Ivanovna">l’impératrice</a>, sa maitresse, <br>
+               ne pourvoit pas et agir <br> autrement avec moi parce que <br> j’avois commandé dans <br> <a href="index_lieux.html#Dantzick">Danzik</a> ce qui est
+               faux <br> et L.H.P. prennent <a href="index_personnages.html#George_II(roi_d'Angleterre)">Sa Majesté Britannique</a> peut se faire <br> informer par la nation <br>, telle endroit,
+               angloise qui est à <a href="index_lieux.html#Dantzick">Danzik</a> si <br> j’ai jamais donné le moi, <br> si j’ai été dans les attaques <br>, si j’ai eu des
+               sentinelles à <br> ma porte, si je suis jamais <br> entré au conseil de guerre <br> de la ville ce soit pourtant <br> le
+               marquis de commander <br> y a tel apparence, que le magistrat me feut <br> diféré <br> l’eut donné à un
+               ministre <br> charger y a tel apparence <br> qu’estant <a href="index_personnages.html#Monti_(Antoine-Felix_de)">ambassadeur</a> <a href="index_personnages.html#Louis_XV(roi_de_France)">du  roi</a>, je voulusse me soumettre <br> aux
+               ordres que le magistrat <br> de <a href="index_lieux.html#Dantzick">Danzik</a> me donneroit <br> et la détention de la Cour de <br> <a href="index_lieux.html#Russie">Russie</a> pour
+               soutenir ce qu’elle a fait dit.Je ne sais, <a href="index_personnages.html#Andr%C3%A9-Th%C3%A9odore_Chavignard(Chevalier_de_Chavigny)">Monsieur</a>, où en est <br> l’affaire présentement<span class="folio-marker" style="color: #8b4513; font-weight: bold; display: block; margin: 1.5em 0; border-top: 1px dashed #ccc;"><a href="#img-26r" style="color: inherit; text-decoration: none;">
+                     [Folio 26r - Cliquez pour voir l'image]
+                     </a></span>ne recevant aucunes <br> lettres. Je sais que <a href="index_personnages.html#Burckhardt_Christoph_von_M%C3%BCnnich(Comte_de_Munich)">[le] Maréchal de  Munich</a> a dit soit sérieusement soit <br> par plaisanterie qu’il en <br> tenoit qu’à moi de
+               sortir <br> aussitost que je signerois le <br> billet qu’on me demande. <br> Je dois vous informer, <a href="index_personnages.html#Andr%C3%A9-Th%C3%A9odore_Chavignard(Chevalier_de_Chavigny)">Monsieur</a>, <br>
+               afin qu’on ne suppose point à L.H.P <br> au ministre de <a href="index_personnages.html#George_II(roi_d'Angleterre)">Sa Majesté Britannique</a> <br> que je n’ai pas voulu
+               signer ce <br> billet on ne m’en a jamais <br> présenté et on ne m’a jamais <br> parlé de rien. <a href="index_personnages.html#g%C3%A9%C3%B4lier_du_marquis_de_Monti">Le commandant 
+                  Russien</a> vient tous les quinze <br> jours ou trois semaines, me <br> faire une visite et on ne <br> parle que de choses indifferentes. <br>
+               Je dois rien signer que <br> par ordre <a href="index_personnages.html#Louis_XV(roi_de_France)">du roi</a>. <br> <a href="index_personnages.html#George_II(roi_d'Angleterre)">Sa Majesté Britannique</a> qui a la <br> bonté de s’intéresser à ma <br> liberté, pourroit croire que l’affaire seroit
+               finie et <br> que je serois en chemin, <br> et dans cette supposition <br> cesser, pendant quelque <br> tems ses
+               instances. <br> C’estoit à ce que ceux qui s'opposent <br> à ma liberté pourroient <br> souhaiter et quoique <br> je
+               dois croire que <br> <a href="index_personnages.html#Burckhardt_Christoph_von_M%C3%BCnnich(Comte_de_Munich)">le Comte de Munich</a> seroit <br> à les exécuter si les <br> ordres de sa cour lorsqu'on lui<span class="folio-marker" style="color: #8b4513; font-weight: bold; display: block; margin: 1.5em 0; border-top: 1px dashed #ccc;"><a href="#img-26v" style="color: inherit; text-decoration: none;">
+                     [Folio 26v - Cliquez pour voir l'image]
+                     </a></span>mandera de me mettre en <br> liberté. Cependant, il dépend <br> plus ou moins de lui de l’exécuter <br> le
+               plus tost ou plus tard ou de faire naitre quelque incident pour prolonge l’affaire
+               <br>. C’est pour que <br>
+               je crois nécessaire que <a href="index_personnages.html#William_Stanhope(Comte_de_Harrington)">Mondit Lord Harrington</a> excusé à <a href="index_personnages.html#George_Woodward(ambassadeur_britannique_en_Pologne)">Monsieur  Wodward</a> d’insister auprès de <br>
+               <a href="index_personnages.html#Burckhardt_Christoph_von_M%C3%BCnnich(Comte_de_Munich)">Maréchal de Munich </a>pour la plus <br> pronte exécution, que <br> <a href="index_personnages.html#Burckhardt_Christoph_von_M%C3%BCnnich(Comte_de_Munich)">[le]Maréchal de Munich</a> étant chargé <br> des
+               affaires de <a href="index_lieux.html#Pologne">Pologne</a>. Ces <br> ordres lui seront adressés et <br> qui sera le maitre de les <br> accélérer ou de les
+               différer<br>. J’ai tout lieu d’espérer que <br> <a href="index_personnages.html#William_Stanhope(Comte_de_Harrington)">Mondit Lord Harrington</a> de qui je <br> ne puis assés me louer <br>, car aiant
+               beaucoup d’obligation, aura la bonté de service cette affaire.Surtout <br> vous y intéressés <br> particulièrement indépend <br>, donnent des ordres <a href="index_personnages.html#Louis_XV(roi_de_France)">du roi</a> <br>, ce ministre aiant
+               autant <br> d’estime et d’amitié pour vous <br>, que je sais qu’il en a. <br> Il n’est pas question de <br> procurer ni
+               à moi ni à ceux <br> qui sont avec moi d’adoucissement <br> dans la captivité <br>. Cela se pratique <br> avec des
+               criminels <br> et si on les acceptoit. Ce seroit <br> avouer qu’ils ont eu droit de <br> m’arrêter, l’honneur du <a href="index_personnages.html#Louis_XV(roi_de_France)">Roi</a><br>
+               ny trouveroit par son compte.<span class="folio-marker" style="color: #8b4513; font-weight: bold; display: block; margin: 1.5em 0; border-top: 1px dashed #ccc;"><a href="#img-27r" style="color: inherit; text-decoration: none;">
+                     [Folio 27r - Cliquez pour voir l'image]
+                     </a></span>Je crois que ne doit estre tout <br> ou rien, votre pénétration <br> comprendra la conséquence <br> de cet
+               adoucissement  et qu’il faut éviter de demander <br>. Je ne les acepterois pas si <br> on me les accordoit.<br>
+               <a href="index_personnages.html#Teodor_Andrzej_Potocki">Monsieur le Primat</a>.</div>
+            <div style="position: sticky; top: 10px; height: 85vh; overflow-y: auto; background: #eee; padding: 10px; border: 1px solid #b58d59;">
+               <h2 style="font-family: sans-serif; color: #8b4513;">Fac-similés</h2>
+               <div id="img-24r" style="margin-bottom: 30px; text-align: center;">
+                  <p style="font-family: sans-serif; font-weight: bold;">Folio 24r</p><img src="images_lettres/folio_24r.jpg" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 3px;" alt="Folio 24r"></div>
+               <div id="img-24v" style="margin-bottom: 30px; text-align: center;">
+                  <p style="font-family: sans-serif; font-weight: bold;">Folio 24v</p><img src="images_lettres/folio_24v.jpg" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 3px;" alt="Folio 24v"></div>
+               <div id="img-25r" style="margin-bottom: 30px; text-align: center;">
+                  <p style="font-family: sans-serif; font-weight: bold;">Folio 25r</p><img src="images_lettres/folio_25r.jpg" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 3px;" alt="Folio 25r"></div>
+               <div id="img-25v" style="margin-bottom: 30px; text-align: center;">
+                  <p style="font-family: sans-serif; font-weight: bold;">Folio 25v</p><img src="images_lettres/folio_25v.jpg" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 3px;" alt="Folio 25v"></div>
+               <div id="img-26r" style="margin-bottom: 30px; text-align: center;">
+                  <p style="font-family: sans-serif; font-weight: bold;">Folio 26r</p><img src="images_lettres/folio_26r.jpg" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 3px;" alt="Folio 26r"></div>
+               <div id="img-26v" style="margin-bottom: 30px; text-align: center;">
+                  <p style="font-family: sans-serif; font-weight: bold;">Folio 26v</p><img src="images_lettres/folio_26v.jpg" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 3px;" alt="Folio 26v"></div>
+               <div id="img-27r" style="margin-bottom: 30px; text-align: center;">
+                  <p style="font-family: sans-serif; font-weight: bold;">Folio 27r</p><img src="images_lettres/folio_27r.jpg" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 3px;" alt="Folio 27r"></div>
+            </div>
+         </div>
+      </div>
+      <div class="pagination" style="margin-top: 2em; border-top: 1px solid #ccc; padding-top: 1em; text-align: center;"><a href="lettre_1.html">⬅️ Lettre précédente</a> | <a href="lettre_3.html">Lettre suivante ➡️</a></div>
+      <footer style="margin-top: 2em; border-top: 1px solid #ccc; padding-top: 1em; text-align: center;">
+         <hr>
+         <p>Ce site web a été réalisé dans le cadre d'un devoir XSLT du Master TNAH de l'École
+            nationale des chartes</p>
+         <p> © Fanny Suszko, 2026</p>
+         <div style="margin-top: 2em; border-top: 2px; padding-top: 2em; text-align:right"><img src="image/logo-chartes-psl-coul.png" width="400" title="logo de l'ENC" alt="Logo de l'Ecole des Chartes"></div>
+      </footer>
+   </body>
+</html>

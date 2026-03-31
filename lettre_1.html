@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&amp;display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script><title>Les correspondances du Marquis de Monti, ambassadeur de France en Pologne</title>
+      <style>
+                #navbar > ul > li {
+                display: inline-block;
+                list-style: none;
+                }
+                .introduction-biographique {
+                font-family:'Roboto', sans-serif;   
+                background-color: #fdfdfd; /* Un fond très légèrement crème */
+                border-bottom: 1px solid #ddd;
+                margin-bottom: 30px;
+                }                
+                .introduction-biographique h2 {
+                color: #8b4513; 
+                text-align: center;
+                }
+                .banniere-historique {
+                width: 100%;           
+                height: 250px;         
+                object-fit: cover;    
+                object-position: center 60%; 
+                border-bottom: 2px solid #b58d59; 
+                }
+                .fiche-marquis {
+                display: grid;
+                grid-template-columns: 1fr 1.5fr; /* 1 part pour l'image, 1.5 pour le texte */
+                gap: 30px;                       
+                max-width: 1000px;
+                margin: 0 auto;
+                /* Largeur importante pour la page */
+                background: #fdfdfd;
+                border: 1px solid #b58d59;
+                padding: 20px;
+                align-items: center;              
+                }                
+                /* Style pour la liste des infos */
+                .fiche-info {
+                list-style: none;
+                padding: 0;
+                text-align: left;                 
+                }                
+                .fiche-info li {
+                margin-bottom: 10px;
+                border-bottom: 1px dotted #ccc;  /* Petit trait de séparation entre les lignes */
+                }
+                /* Conteneur principal sous la bannière */
+                .main-content {
+                display: grid;
+                grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
+                gap: 30px;
+                max-width: 1200px;
+                margin: 20px auto;
+                }                
+                /* Zone de transcription (style papier ancien) */
+                .transcription-area {
+                background-color: #fffaf0;
+                padding: 40px;
+                box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+                font-family: "EB Garamond", serif; 
+                line-height: 1.8;
+                }                
+                /* Zone visionneuse (fixe au défilement) */
+                .viewer-area {
+                position: sticky;
+                top: 20px;
+                height: 700px;
+                }
+                .dateline {
+                text-align: right;
+                font-style: italic;
+                margin-bottom: 2em;
+                }
+                .transcription-area p {
+                text-indent: 2em;
+                margin-bottom: 1em;
+                text-align: justify;
+                }                
+                .folio-marker {
+                color: #888;
+                font-size: 0.9em;
+                font-family: sans-serif;
+                margin: 1em 0;
+                display: block;
+                }
+                /* Styles pour les index */
+                .index-container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+                .alphabet-nav { 
+                text-align: center; 
+                padding: 15px; 
+                position: sticky; 
+                top: 0; 
+                background: #fff; 
+                border-bottom: 2px solid #b58d59; 
+                z-index: 10;
+                margin-bottom: 20px;
+                }
+                .alphabet-nav a { 
+                text-decoration: none; 
+                font-weight: bold; 
+                color: #8b4513; 
+                margin: 0 8px; 
+                font-size: 1.2em;
+                }
+                .index-letter { 
+                font-family: 'Playwrite IE', cursive; 
+                color: #b58d59; 
+                border-bottom: 1px solid #eee; 
+                padding-top: 30px;
+                }
+                .index-list { list-style: none; padding: 0; }
+                .index-list li { 
+                display: flex; 
+                justify-content: space-between; 
+                align-items: center;
+                padding: 10px; 
+                border-bottom: 1px dotted #ccc; 
+                }
+                .btn-lettre {
+                text-decoration: none;
+                color: #582900;
+                background: #fdfdfd;
+                border: 1px solid #ddd;
+                padding: 3px 10px;
+                border-radius: 5px;
+                font-size: 0.9em;
+                }
+                .btn-lettre:hover { background: #b58d59; color: #fff; }
+            </style>
+   </head>
+   <body>
+      <div class="banniere"><img src="image/manuscrit.jpeg" class="banniere-historique" alt="Bannière"></div>
+      <div class="metadata-header" style="margin-bottom: 3em; background-color: #f9f9f9; padding: 15px; border-radius: 5px;gap: 10px; text-align:center">
+         <div style="text-align:center; font-family: 'Playwrite IE', cursive;">
+            <h1>Monti à Monsieur le Garde des Sceaux, Thorn, 6 juin 1735</h1>
+         </div>
+         <div style="text-align: center; font-family: Playwrite IE, cursive" id="navbar">
+            <ul>
+               <li><a href="accueil.html">Accueil</a> - </li>
+               <li><a href="lettre_1.html">Lettre 1</a> - </li>
+               <li><a href="lettre_2.html">Lettre 2</a> - </li>
+               <li><a href="lettre_3.html">Lettre 3 </a> - </li>
+               <li><a href="lettre_4.html">Lettre 4</a> - </li>
+               <li><a href="index_personnages.html">Index personnages</a> - </li>
+               <li><a href="index_lieux.html">Index lieux</a> - </li>
+            </ul>
+         </div>
+         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; max-width: 1400px; margin: 20px auto;">
+            <div class="transcription-area" style="padding: 20px; background: #fffaf0; border: 1px solid #ddd; text-align: justify;"><a href="index_personnages.html#Andr%C3%A9_Hercule_de_Fleury(cardinal_de_Fleury)">Monsieur</a>,<span class="folio-marker" style="color: #8b4513; font-weight: bold; display: block; margin: 1.5em 0; border-top: 1px dashed #ccc;"><a href="#img-6r" style="color: inherit; text-decoration: none;">
+                     [Folio 6r - Cliquez pour voir l'image]
+                     </a></span>J’espere que le paquet que <br>j’ai eu l’honneur de vous <br>adresser le 9 du mois passé par <a href="index_personnages.html#Gabriel_Jacques_de_Salignac_de_la_Mothe-Fenelon(marquis_de_Fenelon)">Monsieur
+                  le marquis de Fenelon</a> vous <br> aura été rendu et que vous <br> aurez eu la bonté d’excuser <br>ma prolixité
+               et des vues <br>que je souhaiterais que l’on put exécuter par le service <br> <a href="index_personnages.html#Louis_XV(roi_de_France)">du roi</a>. Comme je ne sais ce <br>
+               qui se passe que par les <br> gazettes. Je suis excusable <br> si je fais des raisonnemens<br> trop étendus.<a href="index_personnages.html#Teodor_Andrzej_Potocki">Monsieur le Primat</a> a receu ordre <br> il y a quelques jours de <br> partir d’icy sou bonne escorte <br> suivi de <br>
+               ses domestiques dont on ne <br>excepte plusieurs pour être transféré à <a href="index_lieux.html#Pu%C5%82tusk">Pultuck</a> qui est <br>15 lieues de
+               <a href="index_lieux.html#France">France</a>, de <br><a href="index_lieux.html#Varsovie">Varsovie</a>, et sur le chemin<br> de la <a href="index_lieux.html#Lithuanie">Lithuanie</a>. Trois <br> heures avant qu’on lui <br>signifiat cet
+               ordre. On avoit <br> enlevé <a href="index_personnages.html#Rzewceski">son confesseur le Père Guruwskit</a> à <a href="index_personnages.html#Carl_Friedrich_Rudensch%C3%B6ld">Monsieur de Rudenschild</a> qui <br>n’eut
+               qu’une heure de tems <br>pour partir sans qu’on sache jusqu’à présent on <span class="folio-marker" style="color: #8b4513; font-weight: bold; display: block; margin: 1.5em 0; border-top: 1px dashed #ccc;"><a href="#img-6v" style="color: inherit; text-decoration: none;">
+                     [Folio 6v - Cliquez pour voir l'image]
+                     </a></span>la conduit <a href="index_personnages.html#Franciszek_Radzewski">le maréchal de diette de l’Election</a> qui est <br> prisonnier icy le neveu du <br>Primat,quelque chanoines de <br><a href="index_lieux.html#Grosne">Grosne</a> à la
+               suite de ce prélat <br>y sont restés sans qu’ils aient <br> en permission de le suivre. <br>L’ordre porte de partir
+               en <br>deux fois 24 heures mais <br>à grande peine il a obtenu<br> un jour de plus. Ce prélat <br> a eu la politesse
+               le <br>lendemain de <br>passer sous mes fenêtres <br>pour prendre congé de moi.<br> Je m’apperceus que son<br>
+               carosse venue, je descendis<br> sur le pas de la porte <br>et malgré les gardes qui <br>le suivaient il fit
+               arrêter <br> son carosse et de mon côté <br> malgré les deux sentinelles <br>qui sont à ma porte. Nous <br>nous¨l
+               dimes dans un instant <br>tout ce qui se pouvoir dire <br>de part et d’autre de plus <br>tendre il me cria que<br>
+               c’estoit pour la dernière fois. <br> Je suis persuadé qu’en arrivant à <a href="index_lieux.html#Pu%C5%82tusk">Pultuck</a>, il y <br>trouvera <a href="index_personnages.html#Jan_Aleksander_Lipski">l’Evêque
+                  de Cracovie</a>, <br> cet apellant de <a href="index_lieux.html#Cracovie">Cracovie</a>, <a href="index_personnages.html#J%C3%B3zef_Potocki">le palatin de Kiovie</a> et <br> d’autres pour le presser de <br> se
+               soumettre et de <span class="folio-marker" style="color: #8b4513; font-weight: bold; display: block; margin: 1.5em 0; border-top: 1px dashed #ccc;"><a href="#img-7r" style="color: inherit; text-decoration: none;">
+                     [Folio 7r - Cliquez pour voir l'image]
+                     </a></span>reconnoitre <a href="index_personnages.html#Fr%C3%A9d%C3%A9ric-Auguste_II(Electeur_de_Saxe)">l’Electeur</a>. <br>Sinon on lui fera sans doute envisager <br><a href="index_lieux.html#P%C3%A9tersbourg">Pétersbourg</a>. Je
+               ne sais ce qui <br> en arrivera mais en tout cas en ne sera qu’une reconnoissance force. Je n’ai pas
+               voulu <br>manquer, <a href="index_personnages.html#Andr%C3%A9_Hercule_de_Fleury(cardinal_de_Fleury)">Monseigneur</a>, d’avoir <br>l’honneur de tout entendre ,<br> compte quoique ma lettre<br>
+               tardera longtems à vous parvenir.On m’a informé que <a href="index_personnages.html#Burckhardt_Christoph_von_M%C3%BCnnich(Comte_de_Munich)">Monsieur de Munich</a> qui est à <a href="index_lieux.html#Varsovie">Varsovie</a> <br>dit sa sérieusement soit <br>par
+               plaisanterie qu’il ne <br>tenoit qu’à moi d’estre libre <br> quand je voudrois pourvue <br> que je signasse un
+               billet. <br> Je ne doute pas <a href="index_personnages.html#Andr%C3%A9_Hercule_de_Fleury(cardinal_de_Fleury)">Monseigneur</a> qu’à les <br> Russiens ne répondent partout que je suis traité <br>
+               avec les agréments qu’on <br> accorde à des officiers prisoniers <br> de guerre parmi toutes les <br> nations et
+               qu’il ne tient <br> qu’à moi d’estre libre, si je veux <br> signer ce billet. <br>Personne ne m’a jamais <br> parlé de
+               billet et quand <br>on m’en parleroit, je ne <br>le signerois qu’avec ordre <a href="index_personnages.html#Louis_XV(roi_de_France)">du roi</a>. <br>Le <a href="index_personnages.html#g%C3%A9%C3%B4lier_de_Monti">colonel Russien</a> <br>
+               vint me voir tous les 15 <br>jours ou trois semaines et <br>on ne parle que de choses <br> indifférentes. Je
+               suis bien <span class="folio-marker" style="color: #8b4513; font-weight: bold; display: block; margin: 1.5em 0; border-top: 1px dashed #ccc;"><a href="#img-7v" style="color: inherit; text-decoration: none;">
+                     [Folio 7v - Cliquez pour voir l'image]
+                     </a></span>éloigné d’estre traité comme <br>prisonnier de guerre et <br>voicy, <a href="index_personnages.html#Andr%C3%A9_Hercule_de_Fleury(cardinal_de_Fleury)">Monseigneur</a>, un nouveau <br>
+               trait. Un <a href="index_personnages.html#Voisin">valet de chambre</a> <br> qui me sert depuis longtems <br> étant ces jours passer tomber
+               dangereusement <br> malade demandoit avec <br>grande instance de recevoir <br>ses sacremens.<a href="index_personnages.html#Teodor_Andrzej_Potocki"> Monsieur
+                  le Primat</a> <br>informe de sa situation <br>envoia chés <a href="index_personnages.html#g%C3%A9%C3%B4lier_du_marquis_de_Monti">le commandant  russien</a> pour qu’il permist <br> à un de
+               se eulx assignés <br> Polonois qui entend un peu <br>le françois d’entrer dans la <br>maison pour le
+               confesser.<br> <a href="index_personnages.html#g%C3%A9%C3%B4lier_du_marquis_de_Monti">Le commandant</a> répondit <br> qu’il ne pouvoit pas <br> l’accorder et que ses ordres <br> ne lui
+               permettoient que <br>de laisser entrer un recolet <br> le jour de Fête pour dire la <br> messe avec un officier <br>
+               présent. Cette situation <br> est d’autant plus triste pour <br> moi et pour ces messieurs <br>qui sont avec moi,
+               qu’on <br> est exposé à tomber malade <br> et à mourir dont un pais <br> catholique sans sacremens
+               heureusement ce domestique s’est tiré d’affaire.Je sais Dieu merci soutenu <br>tout le malheur mais <br> j’avoue que je suis très <br> peiné de voir souffrir <br>
+               un an de prison <span class="folio-marker" style="color: #8b4513; font-weight: bold; display: block; margin: 1.5em 0; border-top: 1px dashed #ccc;"><a href="#img-8r" style="color: inherit; text-decoration: none;">
+                     [Folio 8r - Cliquez pour voir l'image]
+                     </a></span>à <a href="index_personnages.html#Fran%C3%A7ois_El%C3%A9onor(Comte_d'Andlau)">Monsieur le Chevalier d’Andlau</a>,<br> <a href="index_personnages.html#Houstete">Monsieur Houstete</a>, <a href="index_personnages.html#famille_de_Monti(neveu_de_Monti)">mon neveu</a>, <br> <a href="index_personnages.html#Jean_Pierre_Tercier(premier_secr%C3%A9taire_de_Monti)">mon
+                  secrétaire</a>, tant de <br> domestiques que j’ai que je <br> vois à tout moment avec <br> un visage triste devant
+               moi <br> qu’ont-ils fait pour être traités <br> de la sorte si on s’en prend <br> à moi parce que j’ai servi <br> <a href="index_personnages.html#Louis_XV(roi_de_France)">le roi</a>.
+               <br>Pourquoi tout ce qui est  <br>avec moi doit-il avoir <br> le mesme sort ? <br>Je consentirois de bon coeur <br>
+               qu’on me transportat dans <br> le fond de la <a href="index_lieux.html#Sib%C3%A9rie">Sibérie</a> avec <br> un ou deux domestiques <br> pourvu que les
+               autres <br> fussent en liberté. On ne <br> refuse point la confession <br> dans des cas d’infirmité <br> à tout ce qu’il
+               y a de plus <br> criminel mesme de cest <br> majesté et dans les prisons <br> d’Estat on accorde la <br> permission
+               de prendre <br> quelque fois tant sur <br> la plateforme. Je ne <span class="folio-marker" style="color: #8b4513; font-weight: bold; display: block; margin: 1.5em 0; border-top: 1px dashed #ccc;"><a href="#img-8v" style="color: inherit; text-decoration: none;">
+                     [Folio 8v - Cliquez pour voir l'image]
+                     </a></span>demande pas <a href="index_personnages.html#Andr%C3%A9_Hercule_de_Fleury(cardinal_de_Fleury)">Monseigneur</a> <br> d’adoucissement dans la <br> manière dont je suis traité <br> cet adoucissement se donnent <br> à des criminels ou tout ou <br> rien.
+               Il ne conviendroit pas <br> mesme à la dignité d’un <br> roi qu’on donnast à son <br> <a href="index_personnages.html#Monti_(Antoine-Felix_de)">ambassadeur</a> plus de
+               liberté <br> ce qui feroit croire <br> qu’on aura eu droit de <br> l’areter et de le traiter <br> comme prisonnier
+               d’Estat.J’avois au mois de septembre <br> passe pris la liberté de <br> proposer un expédient de <br> faire rappeller
+               par <a href="index_personnages.html#Philippe_V(roi_d'Espagne)">le Roi  catholique</a> tous les officiers <br> prisonniers allemans <br> relâcher sur leur parole <br> quoique
+               les Russiens <br> n’eussent pas été en droit <br> de retenir le bataillons <br> parce qu’on est le maitre <br> de faire
+               revenir les <span class="folio-marker" style="color: #8b4513; font-weight: bold; display: block; margin: 1.5em 0; border-top: 1px dashed #ccc;"><a href="#img-9r" style="color: inherit; text-decoration: none;">
+                     [Folio 9r - Cliquez pour voir l'image]
+                     </a></span>prisonniers sans qu’on y <br> trouve à redire cependant <br> ils auroient pu trouver <br> d’autres
+               prétextes pour retenir <br> les trois bataillons à <a href="index_lieux.html#Cronste">Cronste</a> <br> à présent cet inconvénient <br> n’y fait plus à si <br>
+               cependant que j’ai proposé <br> en dernier lieu ne peut pas <br> avoir lieu celui de faire <br> revenir les
+               prisonniers au <br> garnison pourroit à présent <br> trouver sa place d’autant <br> plus qu’il y a plusieurs <br>
+               personnes de considération <br> qui à cause de leurs parens <br> s’emploieroient auprès de <a href="index_personnages.html#Charles_VI_de_Habsbourg(empereur_du_Saint-Empire)">l’empereur</a>
+               pour qu’il obtint <br> ma liberté.
+               P.S. : 
+               Je joins icy une lettre <br> pour <a href="index_personnages.html#Son_Excellence">Son Excellence</a> dans laquelle <br> je lui marque ma situation <br> et
+               l’ordre donné à <a href="index_personnages.html#Teodor_Andrzej_Potocki">Monsieur le  Primat</a>.
+               </div>
+            <div style="position: sticky; top: 10px; height: 85vh; overflow-y: auto; background: #eee; padding: 10px; border: 1px solid #b58d59;">
+               <h2 style="font-family: sans-serif; color: #8b4513;">Fac-similés</h2>
+               <div id="img-6r" style="margin-bottom: 30px; text-align: center;">
+                  <p style="font-family: sans-serif; font-weight: bold;">Folio 6r</p><img src="images_lettres/folio_6r.jpg" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 3px;" alt="Folio 6r"></div>
+               <div id="img-6v" style="margin-bottom: 30px; text-align: center;">
+                  <p style="font-family: sans-serif; font-weight: bold;">Folio 6v</p><img src="images_lettres/folio_6v.jpg" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 3px;" alt="Folio 6v"></div>
+               <div id="img-7r" style="margin-bottom: 30px; text-align: center;">
+                  <p style="font-family: sans-serif; font-weight: bold;">Folio 7r</p><img src="images_lettres/folio_7r.jpg" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 3px;" alt="Folio 7r"></div>
+               <div id="img-7v" style="margin-bottom: 30px; text-align: center;">
+                  <p style="font-family: sans-serif; font-weight: bold;">Folio 7v</p><img src="images_lettres/folio_7v.jpg" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 3px;" alt="Folio 7v"></div>
+               <div id="img-8r" style="margin-bottom: 30px; text-align: center;">
+                  <p style="font-family: sans-serif; font-weight: bold;">Folio 8r</p><img src="images_lettres/folio_8r.jpg" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 3px;" alt="Folio 8r"></div>
+               <div id="img-8v" style="margin-bottom: 30px; text-align: center;">
+                  <p style="font-family: sans-serif; font-weight: bold;">Folio 8v</p><img src="images_lettres/folio_8v.jpg" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 3px;" alt="Folio 8v"></div>
+               <div id="img-9r" style="margin-bottom: 30px; text-align: center;">
+                  <p style="font-family: sans-serif; font-weight: bold;">Folio 9r</p><img src="images_lettres/folio_9r.jpg" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 3px;" alt="Folio 9r"></div>
+            </div>
+         </div>
+      </div>
+      <div class="pagination" style="margin-top: 2em; border-top: 1px solid #ccc; padding-top: 1em; text-align: center;"><a href="accueil.html">⬅️ Retour à l'accueil</a> | <a href="lettre_2.html">Lettre suivante ➡️</a></div>
+      <footer style="margin-top: 2em; border-top: 1px solid #ccc; padding-top: 1em; text-align: center;">
+         <hr>
+         <p>Ce site web a été réalisé dans le cadre d'un devoir XSLT du Master TNAH de l'École
+            nationale des chartes</p>
+         <p> © Fanny Suszko, 2026</p>
+         <div style="margin-top: 2em; border-top: 2px; padding-top: 2em; text-align:right"><img src="image/logo-chartes-psl-coul.png" width="400" title="logo de l'ENC" alt="Logo de l'Ecole des Chartes"></div>
+      </footer>
+   </body>
+</html>

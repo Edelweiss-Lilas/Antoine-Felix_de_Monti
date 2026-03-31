@@ -1,0 +1,318 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&amp;display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script><title>Les correspondances du Marquis de Monti, ambassadeur de France en Pologne</title>
+      <style>
+                #navbar > ul > li {
+                display: inline-block;
+                list-style: none;
+                }
+                .introduction-biographique {
+                font-family:'Roboto', sans-serif;   
+                background-color: #fdfdfd; /* Un fond très légèrement crème */
+                border-bottom: 1px solid #ddd;
+                margin-bottom: 30px;
+                }                
+                .introduction-biographique h2 {
+                color: #8b4513; 
+                text-align: center;
+                }
+                .banniere-historique {
+                width: 100%;           
+                height: 250px;         
+                object-fit: cover;    
+                object-position: center 60%; 
+                border-bottom: 2px solid #b58d59; 
+                }
+                .fiche-marquis {
+                display: grid;
+                grid-template-columns: 1fr 1.5fr; /* 1 part pour l'image, 1.5 pour le texte */
+                gap: 30px;                       
+                max-width: 1000px;
+                margin: 0 auto;
+                /* Largeur importante pour la page */
+                background: #fdfdfd;
+                border: 1px solid #b58d59;
+                padding: 20px;
+                align-items: center;              
+                }                
+                /* Style pour la liste des infos */
+                .fiche-info {
+                list-style: none;
+                padding: 0;
+                text-align: left;                 
+                }                
+                .fiche-info li {
+                margin-bottom: 10px;
+                border-bottom: 1px dotted #ccc;  /* Petit trait de séparation entre les lignes */
+                }
+                /* Conteneur principal sous la bannière */
+                .main-content {
+                display: grid;
+                grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
+                gap: 30px;
+                max-width: 1200px;
+                margin: 20px auto;
+                }                
+                /* Zone de transcription (style papier ancien) */
+                .transcription-area {
+                background-color: #fffaf0;
+                padding: 40px;
+                box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+                font-family: "EB Garamond", serif; 
+                line-height: 1.8;
+                }                
+                /* Zone visionneuse (fixe au défilement) */
+                .viewer-area {
+                position: sticky;
+                top: 20px;
+                height: 700px;
+                }
+                .dateline {
+                text-align: right;
+                font-style: italic;
+                margin-bottom: 2em;
+                }
+                .transcription-area p {
+                text-indent: 2em;
+                margin-bottom: 1em;
+                text-align: justify;
+                }                
+                .folio-marker {
+                color: #888;
+                font-size: 0.9em;
+                font-family: sans-serif;
+                margin: 1em 0;
+                display: block;
+                }
+                /* Styles pour les index */
+                .index-container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+                .alphabet-nav { 
+                text-align: center; 
+                padding: 15px; 
+                position: sticky; 
+                top: 0; 
+                background: #fff; 
+                border-bottom: 2px solid #b58d59; 
+                z-index: 10;
+                margin-bottom: 20px;
+                }
+                .alphabet-nav a { 
+                text-decoration: none; 
+                font-weight: bold; 
+                color: #8b4513; 
+                margin: 0 8px; 
+                font-size: 1.2em;
+                }
+                .index-letter { 
+                font-family: 'Playwrite IE', cursive; 
+                color: #b58d59; 
+                border-bottom: 1px solid #eee; 
+                padding-top: 30px;
+                }
+                .index-list { list-style: none; padding: 0; }
+                .index-list li { 
+                display: flex; 
+                justify-content: space-between; 
+                align-items: center;
+                padding: 10px; 
+                border-bottom: 1px dotted #ccc; 
+                }
+                .btn-lettre {
+                text-decoration: none;
+                color: #582900;
+                background: #fdfdfd;
+                border: 1px solid #ddd;
+                padding: 3px 10px;
+                border-radius: 5px;
+                font-size: 0.9em;
+                }
+                .btn-lettre:hover { background: #b58d59; color: #fff; }
+            </style>
+   </head>
+   <body>
+      <div class="banniere"><img src="image/manuscrit.jpeg" class="banniere-historique" alt="Bannière de la correspondance"></div>
+      <h1 style="text-align:center; font-family: Playwrite IE, cursive">Index des Lieux</h1>
+      <div style="text-align: center; font-family: Playwrite IE, cursive" id="navbar">
+         <ul>
+            <li><a href="accueil.html">Accueil</a> - </li>
+            <li><a href="lettre_1.html">Lettre 1</a> - </li>
+            <li><a href="lettre_2.html">Lettre 2</a> - </li>
+            <li><a href="lettre_3.html">Lettre 3 </a> - </li>
+            <li><a href="lettre_4.html">Lettre 4</a> - </li>
+            <li><a href="index_personnages.html">Index personnages</a> - </li>
+            <li><a href="index_lieux.html">Index lieux</a> - </li>
+         </ul>
+      </div>
+      <div class="index-container">
+         <nav class="alphabet-nav"><a href="#letter-A">A</a> <a href="#letter-B">B</a> <a href="#letter-C">C</a> <a href="#letter-D">D</a> <a href="#letter-F">F</a> <a href="#letter-G">G</a> <a href="#letter-H">H</a> <a href="#letter-K">K</a> <a href="#letter-L">L</a> <a href="#letter-P">P</a> <a href="#letter-R">R</a> <a href="#letter-S">S</a> <a href="#letter-T">T</a> <a href="#letter-V">V</a> </nav>
+         <div class="index-section" id="letter-A">
+            <h2 class="index-letter">A</h2>
+            <ul class="index-list">
+               <li><span class="entry-name"><strong>Allemagne</strong></span><span class="entry-links"><a href="lettre_2.html" class="btn-lettre">Lettre 2</a>ê
+                     
+                     </span></li>
+            </ul>
+         </div>
+         <div class="index-section" id="letter-B">
+            <h2 class="index-letter">B</h2>
+            <ul class="index-list">
+               <li><span class="entry-name"><strong>Berlin</strong></span><span class="entry-links"><a href="lettre_3.html" class="btn-lettre">Lettre 3</a>ê
+                     
+                     </span></li>
+            </ul>
+         </div>
+         <div class="index-section" id="letter-C">
+            <h2 class="index-letter">C</h2>
+            <ul class="index-list">
+               <li><span class="entry-name"><strong>Cracovie</strong></span><span class="entry-links"><a href="lettre_1.html" class="btn-lettre">Lettre 1</a>ê
+                     
+                     </span></li>
+               <li><span class="entry-name"><strong>Cronste</strong></span><span class="entry-links"><a href="lettre_1.html" class="btn-lettre">Lettre 1</a>ê
+                     
+                     </span></li>
+            </ul>
+         </div>
+         <div class="index-section" id="letter-D">
+            <h2 class="index-letter">D</h2>
+            <ul class="index-list">
+               <li><span class="entry-name"><strong>Dantzick</strong></span><span class="entry-links"><a href="lettre_2.html" class="btn-lettre">Lettre 2</a>ê
+                     
+                     , <a href="lettre_4.html" class="btn-lettre">Lettre 4</a>ê
+                     
+                     </span></li>
+            </ul>
+         </div>
+         <div class="index-section" id="letter-F">
+            <h2 class="index-letter">F</h2>
+            <ul class="index-list">
+               <li><span class="entry-name"><strong>France</strong></span><span class="entry-links"><a href="lettre_1.html" class="btn-lettre">Lettre 1</a>ê
+                     
+                     </span></li>
+            </ul>
+         </div>
+         <div class="index-section" id="letter-G">
+            <h2 class="index-letter">G</h2>
+            <ul class="index-list">
+               <li><span class="entry-name"><strong>Grosne</strong></span><span class="entry-links"><a href="lettre_1.html" class="btn-lettre">Lettre 1</a>ê
+                     
+                     </span></li>
+            </ul>
+         </div>
+         <div class="index-section" id="letter-H">
+            <h2 class="index-letter">H</h2>
+            <ul class="index-list">
+               <li><span class="entry-name"><strong>Hambourg</strong></span><span class="entry-links"><a href="lettre_3.html" class="btn-lettre">Lettre 3</a>ê
+                     
+                     </span></li>
+            </ul>
+         </div>
+         <div class="index-section" id="letter-K">
+            <h2 class="index-letter">K</h2>
+            <ul class="index-list">
+               <li><span class="entry-name"><strong>Kiovie</strong></span><span class="entry-links"><a href="lettre_1.html" class="btn-lettre">Lettre 1</a>ê
+                     
+                     </span></li>
+               <li><span class="entry-name"><strong>Konigsberg</strong></span><span class="entry-links"><a href="lettre_3.html" class="btn-lettre">Lettre 3</a>ê
+                     
+                     , <a href="lettre_4.html" class="btn-lettre">Lettre 4</a>ê
+                     
+                     </span></li>
+            </ul>
+         </div>
+         <div class="index-section" id="letter-L">
+            <h2 class="index-letter">L</h2>
+            <ul class="index-list">
+               <li><span class="entry-name"><strong>Lithuanie</strong></span><span class="entry-links"><a href="lettre_1.html" class="btn-lettre">Lettre 1</a>ê
+                     
+                     </span></li>
+            </ul>
+         </div>
+         <div class="index-section" id="letter-P">
+            <h2 class="index-letter">P</h2>
+            <ul class="index-list">
+               <li><span class="entry-name"><strong>Paris</strong></span><span class="entry-links"><a href="lettre_3.html" class="btn-lettre">Lettre 3</a>ê
+                     
+                     , <a href="lettre_4.html" class="btn-lettre">Lettre 4</a>ê
+                     
+                     </span></li>
+               <li><span class="entry-name"><strong>Pologne</strong></span><span class="entry-links"><a href="lettre_2.html" class="btn-lettre">Lettre 2</a>ê
+                     
+                     , <a href="lettre_4.html" class="btn-lettre">Lettre 4</a>ê
+                     
+                     </span></li>
+               <li><span class="entry-name"><strong>Poméranie</strong></span><span class="entry-links"><a href="lettre_3.html" class="btn-lettre">Lettre 3</a>ê
+                     
+                     </span></li>
+               <li><span class="entry-name"><strong>Prusse</strong></span><span class="entry-links"><a href="lettre_3.html" class="btn-lettre">Lettre 3</a>ê
+                     
+                     </span></li>
+               <li><span class="entry-name"><strong>Pułtusk</strong></span><span class="entry-links"><a href="lettre_1.html" class="btn-lettre">Lettre 1</a>ê
+                     
+                     </span></li>
+               <li><span class="entry-name"><strong>Pétersbourg</strong></span><span class="entry-links"><a href="lettre_1.html" class="btn-lettre">Lettre 1</a>ê
+                     
+                     </span></li>
+            </ul>
+         </div>
+         <div class="index-section" id="letter-R">
+            <h2 class="index-letter">R</h2>
+            <ul class="index-list">
+               <li><span class="entry-name"><strong>Russie</strong></span><span class="entry-links"><a href="lettre_2.html" class="btn-lettre">Lettre 2</a>ê
+                     
+                     , <a href="lettre_3.html" class="btn-lettre">Lettre 3</a>ê
+                     
+                     </span></li>
+            </ul>
+         </div>
+         <div class="index-section" id="letter-S">
+            <h2 class="index-letter">S</h2>
+            <ul class="index-list">
+               <li><span class="entry-name"><strong>Sibérie</strong></span><span class="entry-links"><a href="lettre_1.html" class="btn-lettre">Lettre 1</a>ê
+                     
+                     </span></li>
+            </ul>
+         </div>
+         <div class="index-section" id="letter-T">
+            <h2 class="index-letter">T</h2>
+            <ul class="index-list">
+               <li><span class="entry-name"><strong>Thorn</strong></span><span class="entry-links"><a href="lettre_1.html" class="btn-lettre">Lettre 1</a>ê
+                     
+                     , <a href="lettre_2.html" class="btn-lettre">Lettre 2</a>ê
+                     
+                     , <a href="lettre_3.html" class="btn-lettre">Lettre 3</a>ê
+                     
+                     </span></li>
+            </ul>
+         </div>
+         <div class="index-section" id="letter-V">
+            <h2 class="index-letter">V</h2>
+            <ul class="index-list">
+               <li><span class="entry-name"><strong>Varsovie</strong></span><span class="entry-links"><a href="lettre_1.html" class="btn-lettre">Lettre 1</a>ê
+                     
+                     , <a href="lettre_2.html" class="btn-lettre">Lettre 2</a>ê
+                     
+                     , <a href="lettre_3.html" class="btn-lettre">Lettre 3</a>ê
+                     
+                     </span></li>
+               <li><span class="entry-name"><strong>Vienne</strong></span><span class="entry-links"><a href="lettre_4.html" class="btn-lettre">Lettre 4</a>ê
+                     
+                     </span></li>
+            </ul>
+         </div>
+      </div>
+      <div class="pagination" style="margin-top: 2em; border-top: 1px solid #ccc; padding-top: 1em; text-align: center;"><a href="index_personnages.html">⬅️ Index des personnages</a> | <a href="accueil.html">Retour à l'accueil ➡️</a></div>
+      <footer style="margin-top: 2em; border-top: 1px solid #ccc; padding-top: 1em; text-align: center;">
+         <hr>
+         <p>Ce site web a été réalisé dans le cadre d'un devoir XSLT du Master TNAH de l'École
+            nationale des chartes</p>
+         <p> © Fanny Suszko, 2026</p>
+         <div style="margin-top: 2em; border-top: 2px; padding-top: 2em; text-align:right"><img src="image/logo-chartes-psl-coul.png" width="400" title="logo de l'ENC" alt="Logo de l'Ecole des Chartes"></div>
+      </footer>
+   </body>
+</html>
