@@ -508,7 +508,7 @@
                                                                 <xsl:for-each-group select="current-group()" group-by="ancestor::div[@type='letter']/@n">
                                                                     <a href="lettre_{current-grouping-key()}.html" class="btn-lettre">
                                                                         <xsl:text>Lettre </xsl:text><xsl:value-of select="current-grouping-key()"/>
-                                                                    </a>ê
+                                                                    </a>
                                                                     <!-- On ajoute une vigurle de séparation -->
                                                                     <xsl:if test="position() != last()">, </xsl:if>
                                                                 </xsl:for-each-group>
