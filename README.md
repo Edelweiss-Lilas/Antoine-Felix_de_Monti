@@ -2,7 +2,6 @@
 Edition numérique de quatre lettres issues de la correspondance du marquis de Monti (1681-1738), encodées en XML et transformées en HTML à l'aide d'une feuille de style XSL.
 Le marquis de Monti de son nom complet Antoine-Félix de Monti est un ambassadeur français envoyé en Pologne avec pour mission de favoriser l'élection de Stanislas Leszczynski, beau-père de Louis XV. Les archives diplomatiques ont conservé presque la totalité de sa correspondance durant cette période. Je trouvais cela intéressant pour cet exercice de mettre en avant quelques-unes de ces lettres.
 
----
 # Présentation du projet : 
 Les quatre lettres présentées pour ce projet sont des correspondances que les archives diplomatiques sont parvenues à récupérer décrivant sa détention par l'impératrice de Russie, Anna Ivanovna.
    -  Monti à Monsieur le Garde des Sceaux, Thorn, 6 juin 1735
@@ -11,7 +10,6 @@ Les quatre lettres présentées pour ce projet sont des correspondances que les 
     - Monti à Monsieur de la Chétardie, Paris, 24 avril 1737
 Il ne s'agit qu'un petit échantillon de la captivité du marquis de Monti. Dans ses lettres, il relate les événements qui se produisent en prison. Il parle des conditions qui lui sont infligées à lui et à ses hommes. Il tente par tous les moyens de sortir de prison.
 
----
 
 # Contexte historique :
 ## Guerre de Succession de Pologne (1733-1738):
@@ -19,7 +17,7 @@ La Guerre de Succession de Pologne se déclenche à la suite de la mort du roi A
 En France, l'opinion publique n'est pas contre d'attribuer au père de la reine une position plus respectable que celui d'un titre le faisant appartenir à la petite noblesse. Pour cela, il faut que le beau-père du roi regagne le trône, ce qui permettrait de contenter l'opinion publique.
 Monti doit donc favoriser l'élection de Stanislas Leszczynski sans pour autant éveiller les soupçons d'Auguste II.
 
----
+
 # Présentation de l'ambassadeur :
 Le Marquis de Monti est un figure de l'ombre, méconnue pour sa contribution à la deuxième élection de Stanislas Leszczynski. Il a pourtant joué un rôle crucial dans cette élection.
 
@@ -34,5 +32,5 @@ On le fit Maréchal de camp, par brevet du 13 février 1734.
 il s'enferma avec le Roi de Pologne dans Dantzig, en soutint le siège contre l'armée des Russes et des Saxons : trouva le moyen, avant de se rendre, d'en faire sortir le Roi de Pologen, et de lui procurer les moyens de passer en France. 
 Lorsque la ville eut fait sa capitulation, on conduisit le Marquis de Monti à Elbingen, et de là à Thorn, où on le retint dix-huit mois. Déclaré libre, il en partit le 5 mars 1736, revint en France. Fut créé Lieutenant général dees armées du Roi, par pouvoir du 4 juin; et chevalier de ses ordres le premier janvier 1737. Il mourut l'année suivante.
 
----
+
 
