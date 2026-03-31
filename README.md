@@ -12,14 +12,13 @@ Les quatre lettres présentées pour ce projet sont des correspondances que les 
 Il ne s'agit qu'un petit échantillon de la captivité du marquis de Monti. Dans ses lettres, il relate les événements qui se produisent en prison. Il parle des conditions qui lui sont infligées à lui et à ses hommes. Il tente par tous les moyens de sortir de prison.
 
 ---
----
-Contexte historique :
+
+# Contexte historique :
 ## Guerre de Succession de Pologne (1733-1738):
 La Guerre de Succession de Pologne se déclenche à la suite de la mort du roi Auguste II survenue le 1er février 1733, et s'étend sur cinq ans allant de 1733 à 1738. Cette guerre voit de nombreux acteurs se quereller dans le but d'obtenir gain de cause concernant le prochain roi de Pologne représentant un enjeu dans les relations diplomatiques futures. Le conflit oppose d'un côté la France, l'alliée de l'Espagne, de la Sardaigne et de la Bavière et de l'autre la Russie et l'Autriche. La France, une partie de la noblesse polonaise et des Czartoryski vont soutenir Stanislas Leszczynski, beau-père du roi Louis XV, à la suite du mariage de ce dernier avec sa fille, devenue reine à présent Marie Leszczynska. Tandis que la Russie et l'Autriche s'opposent au retour de Stanislas sur le trône, ils vont décider d'un commun accord de soutenir le fils de l'Electeur de Saxe, ancien roi de Pologne, Frédéric-Auguste, le futur Auguste III. 
 En France, l'opinion publique n'est pas contre d'attribuer au père de la reine une position plus respectable que celui d'un titre le faisant appartenir à la petite noblesse. Pour cela, il faut que le beau-père du roi regagne le trône, ce qui permettrait de contenter l'opinion publique.
 Monti doit donc favoriser l'élection de Stanislas Leszczynski sans pour autant éveiller les soupçons d'Auguste II.
 
----
 ---
 # Présentation de l'ambassadeur :
 Le Marquis de Monti est un figure de l'ombre, méconnue pour sa contribution à la deuxième élection de Stanislas Leszczynski. Il a pourtant joué un rôle crucial dans cette élection.
